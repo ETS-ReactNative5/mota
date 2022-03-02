@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "module": "commonjs",
+    "target": "ES2017",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    // "listFiles": true,
+    // "noErrorTruncation": true,
+    "typeRoots": [
+      "@types",
+      "./typings"
+    ],
+
+    "diagnostics": true
+  },
+  "include": [
+    // TODO(bckenny): unnecessary workaround until https://github.com/Microsoft/TypeScript/issues/24062
+    "node_modules/@types/node/index.d.ts",
+    "third-party/devtools/*.js",
+
+    "lighthouse-cli/**/*.js",
+    "lighthouse-core/**/*.js",
+    "lighthouse-extension/app/src/*.js",
+    "./typings/*.d.ts",
+  ],
+  "exclude": [
+    "lighthouse-cli/test/**/*.js",
+    "lighthouse-core/test/**/*.js",
+    "lighthouse-core/closure/**/*.js",
+    "lighthouse-core/third_party/src/**/*.js",
+  ]
+}
