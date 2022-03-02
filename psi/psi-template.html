@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="initial-scale=1, width=device-width" name="viewport">
+  <title>PageSpeed Insights</title>
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700"/>
+
+  <!-- styles from LH-->
+  <link rel=stylesheet type="text/css" href="../lighthouse-core/report/html/report-styles.css" />
+
+  <!-- PSI style Modifications -->
+  <link rel=stylesheet href="./psi-styles.css">
+
+  <script src="../lighthouse-core/report/html/renderer/util.js" type="text/javascript"></script>
+  <script src="../lighthouse-core/report/html/renderer/details-renderer.js" type="text/javascript"></script>
+  <script src="../lighthouse-core/report/html/renderer/crc-details-renderer.js" type="text/javascript"></script>
+  <script src="../lighthouse-core/report/html/renderer/category-renderer.js" type="text/javascript"></script>
+  <script src="../lighthouse-core/report/html/renderer/performance-category-renderer.js" type="text/javascript"></script>
+  <script src="../lighthouse-core/report/html/renderer/report-renderer.js" type="text/javascript"></script>
+  <script src="../lighthouse-core/report/html/renderer/dom.js" type="text/javascript"></script>
+  <script src="../lighthouse-core/report/html/renderer/psi.js" type="text/javascript"></script>
+
+</head>
+<body class="devsite-chekov devsite-doc-page devsite-header-no-upper-tabs">
+
+  <nav>
+    <img src="images/header.png">
+    <div id="searchbar">
+      <img src="images/searchbar.png">
+    </div>
+  </nav>
+
+  <header>
+    <!-- score gauge and header go here -->
+  </header>
+
+  <div class="report-ss-columns">
+    <main class="lh-root lh-vars lh-container">
+      <!-- report populated here -->
+    </main>
+    <div class="ss-column lh-vars">
+      <!-- screenshot populated here -->
+    </div>
+  </div>
+
+  <div hidden id="all-templates"></div>
+  <iframe hidden id="templateframe" src="../lighthouse-core/report/html/templates.html"></iframe>
+
+
+
+  <!-- example of psi's own code -->
+  <script src="./psi-ui.js"></script>
+
+
+  <script>
+    const iframe = document.querySelector('#templateframe');
+    let dom;
+    iframe.addEventListener('load', async _ => {
+
+      // Hack to expose HTML templates within this DOM
+      // In a real deployment, the templates.html file would be emitted into the HTML of this page
+      document.querySelector('#all-templates').appendChild(iframe.contentWindow.document.documentElement);
+
+      // Hack to use a convenient LHR
+      // Exposing this as __LIGHTHOUSE_JSON__ isn't neccessary, but just useful for debugging
+      window.__LIGHTHOUSE_JSON__ = await fetch('../lighthouse-core/test/results/sample_v2.json').then(r => r.json());
+      const LHRStr = JSON.stringify(__LIGHTHOUSE_JSON__);
+
+      // Prepare what the PSI frontend needs
+      const {scoreGaugeEl, perfCategoryEl, finalScreenshotDataUri} = prepareLabData(LHRStr, document);
+
+      if (finalScreenshotDataUri) {
+        const img = document.createElement('img');
+        img.src = finalScreenshotDataUri;
+        document.querySelector('.ss-column').appendChild(img);
+      }
+
+      // Add these elements to the page: big score gauge, field data, then perf category
+      renderHeader(document.querySelector('header'), scoreGaugeEl);
+
+      const container = document.querySelector('.lh-container');
+      container.appendChild(renderFieldDataSection());
+      container.appendChild(perfCategoryEl);
+
+    });
+  </script>
+</body>
+</html>
