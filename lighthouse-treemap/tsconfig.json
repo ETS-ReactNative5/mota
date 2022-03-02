@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig",
+  "include": [
+    "app/src/**/*.js",
+    "types",
+    "../types",
+  ],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "composite": false,
+  },
+}
