@@ -1,0 +1,59 @@
+# Roll build files to exports branch.
+
+name: Roll to exports branch
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  roll-to-exports-branch:
+
+    runs-on: ubuntu-latest
+    strategy:
+      # e.g. if lint fails, continue to the unit tests anyway
+      fail-fast: false
+
+    steps:
+    - name: git clone
+      uses: actions/checkout@v2
+    - run: git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+
+    - name: Use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+
+    # Cache yarn deps. thx https://github.com/actions/cache/blob/master/examples.md#node---yarn
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+    - name: Set up node_modules cache
+      uses: actions/cache@v1
+      id: yarn-cache
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+
+    - run: yarn --frozen-lockfile
+    - run: yarn build-all
+    - run: mkdir exports_output
+    - run: mv dist exports_output/dist
+    - run: echo "${GITHUB_SHA::8}" > exports_output/commit_sha
+
+    # gh-pages makes a shallow copy of the repo in cache and adds an unpublished commit.
+    - run: git config --local user.email "action@github.com"
+    - run: git config --local user.name "Github Action"
+    - run: yarn gh-pages --branch exports --dist exports_output --no-push
+    - run: ls node_modules/gh-pages/.cache
+
+    # Must use this action to authorize correctly w/ GitHub.
+    - name: Push changes
+      uses: ad-m/github-push-action@f18534
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        directory: node_modules/gh-pages/.cache/github.com!GoogleChrome!lighthouse
+        branch: exports
