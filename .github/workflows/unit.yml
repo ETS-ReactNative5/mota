@@ -1,0 +1,33 @@
+name: unit
+
+on:
+  push:
+    # branches: [master]
+  pull_request: # run on all PRs, not just PRs to a particular branch
+
+jobs:
+  # `unit` includes just unit and proto tests.
+  unit:
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['12', '14', '16']
+    runs-on: ubuntu-latest
+    name: node ${{ matrix.node }}
+    env:
+      LATEST_NODE: '16'
+
+    steps:
+    - name: git clone
+      uses: actions/checkout@v2
+      with:
+        # Depth of at least 2 for codecov coverage diffs. See https://github.com/GoogleChrome/lighthouse/pull/12079
+        fetch-depth: 2
+
+    - name: Use Node.js ${{ matrix.node }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node }}
+
+    - run: yarn install --frozen-lockfile --network-timeout 1000000
+    - run: yarn jest audits repro-test.js
