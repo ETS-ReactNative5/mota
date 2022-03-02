@@ -1,0 +1,23 @@
+{
+  "ci": {
+    "assert": {
+      "assertions": {
+        "first-contentful-paint": ["error", {"minScore": 0.8}],
+        "speed-index": ["error", {"minScore": 0.8}],
+        "interactive": ["error", {"minScore": 0.8}]
+      }
+    },
+    "collect": {
+      "numberOfRuns": 2
+    },
+    "report": {
+      "serverBaseUrl": "http://localhost:9009"
+    },
+    "server": {
+      "port": 9009,
+      "storage": {
+        "sqlDatabasePath": "cli-test-fixtures.tmp.sql"
+      }
+    }
+  }
+}
