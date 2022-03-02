@@ -1,0 +1,10159 @@
+{
+  "types": [
+    {
+      "name": "CafeOrCoffeeShop",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "UserLikes",
+      "parent": [
+        "UserInteraction"
+      ]
+    },
+    {
+      "name": "FoodService",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "Recipe",
+      "parent": [
+        "HowTo"
+      ]
+    },
+    {
+      "name": "Volcano",
+      "parent": [
+        "Landform"
+      ]
+    },
+    {
+      "name": "SportsTeam",
+      "parent": [
+        "SportsOrganization"
+      ]
+    },
+    {
+      "name": "GroceryStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "True",
+      "parent": []
+    },
+    {
+      "name": "Demand",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "AboutPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "ExerciseAction",
+      "parent": [
+        "PlayAction"
+      ]
+    },
+    {
+      "name": "UserPlays",
+      "parent": [
+        "UserInteraction"
+      ]
+    },
+    {
+      "name": "EBook",
+      "parent": []
+    },
+    {
+      "name": "SeaBodyOfWater",
+      "parent": [
+        "BodyOfWater"
+      ]
+    },
+    {
+      "name": "Trip",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "Dataset",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "DigitalAudioTapeFormat",
+      "parent": []
+    },
+    {
+      "name": "Action",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "InsuranceAgency",
+      "parent": [
+        "FinancialService"
+      ]
+    },
+    {
+      "name": "DamagedCondition",
+      "parent": []
+    },
+    {
+      "name": "AudioObject",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "TaxiReservation",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "Game",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "AlbumRelease",
+      "parent": []
+    },
+    {
+      "name": "SoldOut",
+      "parent": []
+    },
+    {
+      "name": "Vehicle",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "AutoPartsStore",
+      "parent": [
+        "Store",
+        "AutomotiveBusiness"
+      ]
+    },
+    {
+      "name": "Painting",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "SomeProducts",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "MoveAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "CreativeWork",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "AddAction",
+      "parent": [
+        "UpdateAction"
+      ]
+    },
+    {
+      "name": "JewelryStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "ViewAction",
+      "parent": [
+        "ConsumeAction"
+      ]
+    },
+    {
+      "name": "WPFooter",
+      "parent": [
+        "WebPageElement"
+      ]
+    },
+    {
+      "name": "QAPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "LikeAction",
+      "parent": [
+        "ReactAction"
+      ]
+    },
+    {
+      "name": "PublicationEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "Course",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "MobileApplication",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "ParcelService",
+      "parent": [
+        "DeliveryMethod"
+      ]
+    },
+    {
+      "name": "BefriendAction",
+      "parent": [
+        "InteractAction"
+      ]
+    },
+    {
+      "name": "OrderReturned",
+      "parent": []
+    },
+    {
+      "name": "HowTo",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "PoliceStation",
+      "parent": [
+        "EmergencyService",
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "LeftHandDriving",
+      "parent": []
+    },
+    {
+      "name": "DigitalDocument",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "HealthClub",
+      "parent": [
+        "HealthAndBeautyBusiness",
+        "SportsActivityLocation"
+      ]
+    },
+    {
+      "name": "DrinkAction",
+      "parent": [
+        "ConsumeAction"
+      ]
+    },
+    {
+      "name": "DownloadAction",
+      "parent": [
+        "TransferAction"
+      ]
+    },
+    {
+      "name": "TireShop",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "Synagogue",
+      "parent": [
+        "PlaceOfWorship"
+      ]
+    },
+    {
+      "name": "AnimalShelter",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "WorkersUnion",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "PreOrder",
+      "parent": []
+    },
+    {
+      "name": "HowToSection",
+      "parent": [
+        "ListItem",
+        "CreativeWork",
+        "ItemList"
+      ]
+    },
+    {
+      "name": "MusicAlbum",
+      "parent": [
+        "MusicPlaylist"
+      ]
+    },
+    {
+      "name": "Person",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "RsvpResponseYes",
+      "parent": []
+    },
+    {
+      "name": "DeliveryChargeSpecification",
+      "parent": [
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "LendAction",
+      "parent": [
+        "TransferAction"
+      ]
+    },
+    {
+      "name": "FoodEstablishment",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "ListenAction",
+      "parent": [
+        "ConsumeAction"
+      ]
+    },
+    {
+      "name": "TransferAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "SoundtrackAlbum",
+      "parent": []
+    },
+    {
+      "name": "NutritionInformation",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "SiteNavigationElement",
+      "parent": [
+        "WebPageElement"
+      ]
+    },
+    {
+      "name": "Organization",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "DeleteAction",
+      "parent": [
+        "UpdateAction"
+      ]
+    },
+    {
+      "name": "Wednesday",
+      "parent": []
+    },
+    {
+      "name": "RefurbishedCondition",
+      "parent": []
+    },
+    {
+      "name": "TradeAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "LegalService",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "RemixAlbum",
+      "parent": []
+    },
+    {
+      "name": "OrderProcessing",
+      "parent": []
+    },
+    {
+      "name": "VisualArtwork",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "Attorney",
+      "parent": [
+        "LegalService"
+      ]
+    },
+    {
+      "name": "RsvpAction",
+      "parent": [
+        "InformAction"
+      ]
+    },
+    {
+      "name": "Rating",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "Time",
+      "parent": []
+    },
+    {
+      "name": "KosherDiet",
+      "parent": []
+    },
+    {
+      "name": "ApartmentComplex",
+      "parent": [
+        "Residence"
+      ]
+    },
+    {
+      "name": "RegisterAction",
+      "parent": [
+        "InteractAction"
+      ]
+    },
+    {
+      "name": "HousePainter",
+      "parent": [
+        "HomeAndConstructionBusiness"
+      ]
+    },
+    {
+      "name": "MovieRentalStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "WatchAction",
+      "parent": [
+        "ConsumeAction"
+      ]
+    },
+    {
+      "name": "PropertyValueSpecification",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "EducationEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "VeganDiet",
+      "parent": []
+    },
+    {
+      "name": "ResumeAction",
+      "parent": [
+        "ControlAction"
+      ]
+    },
+    {
+      "name": "ToyStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "BedAndBreakfast",
+      "parent": [
+        "LodgingBusiness"
+      ]
+    },
+    {
+      "name": "Sunday",
+      "parent": []
+    },
+    {
+      "name": "Suite",
+      "parent": [
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "GenderType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Reservoir",
+      "parent": [
+        "BodyOfWater"
+      ]
+    },
+    {
+      "name": "Distillery",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "GiveAction",
+      "parent": [
+        "TransferAction"
+      ]
+    },
+    {
+      "name": "OutOfStock",
+      "parent": []
+    },
+    {
+      "name": "OrderPickupAvailable",
+      "parent": []
+    },
+    {
+      "name": "BuyAction",
+      "parent": [
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "PostOffice",
+      "parent": [
+        "GovernmentOffice"
+      ]
+    },
+    {
+      "name": "CheckoutPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "Accommodation",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "DiabeticDiet",
+      "parent": []
+    },
+    {
+      "name": "LiveAlbum",
+      "parent": []
+    },
+    {
+      "name": "PerformingArtsTheater",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "AggregateOffer",
+      "parent": [
+        "Offer"
+      ]
+    },
+    {
+      "name": "Museum",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "PotentialActionStatus",
+      "parent": []
+    },
+    {
+      "name": "HowToSupply",
+      "parent": [
+        "HowToItem"
+      ]
+    },
+    {
+      "name": "AutoRepair",
+      "parent": [
+        "AutomotiveBusiness"
+      ]
+    },
+    {
+      "name": "ExerciseGym",
+      "parent": [
+        "SportsActivityLocation"
+      ]
+    },
+    {
+      "name": "Embassy",
+      "parent": [
+        "GovernmentBuilding"
+      ]
+    },
+    {
+      "name": "ProfilePage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "DisagreeAction",
+      "parent": [
+        "ReactAction"
+      ]
+    },
+    {
+      "name": "ImageObject",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "ReservationPackage",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "FinancialProduct",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "HomeAndConstructionBusiness",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "ProgramMembership",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "ControlAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "CheckAction",
+      "parent": [
+        "FindAction"
+      ]
+    },
+    {
+      "name": "EPRelease",
+      "parent": []
+    },
+    {
+      "name": "BroadcastRelease",
+      "parent": []
+    },
+    {
+      "name": "DiscussionForumPosting",
+      "parent": [
+        "SocialMediaPosting"
+      ]
+    },
+    {
+      "name": "TouristAttraction",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "Car",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "PriceSpecification",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "AdministrativeArea",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "Season",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "DrawAction",
+      "parent": [
+        "CreateAction"
+      ]
+    },
+    {
+      "name": "PaymentCard",
+      "parent": [
+        "PaymentMethod",
+        "FinancialProduct"
+      ]
+    },
+    {
+      "name": "PublicationVolume",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "LocalBusiness",
+      "parent": [
+        "Place",
+        "Organization"
+      ]
+    },
+    {
+      "name": "CancelAction",
+      "parent": [
+        "PlanAction"
+      ]
+    },
+    {
+      "name": "RsvpResponseMaybe",
+      "parent": []
+    },
+    {
+      "name": "IgnoreAction",
+      "parent": [
+        "AssessAction"
+      ]
+    },
+    {
+      "name": "CommunicateAction",
+      "parent": [
+        "InteractAction"
+      ]
+    },
+    {
+      "name": "MusicRecording",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "MotorcycleDealer",
+      "parent": [
+        "AutomotiveBusiness"
+      ]
+    },
+    {
+      "name": "CheckOutAction",
+      "parent": [
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "BankAccount",
+      "parent": [
+        "FinancialProduct"
+      ]
+    },
+    {
+      "name": "Duration",
+      "parent": [
+        "Quantity"
+      ]
+    },
+    {
+      "name": "RealEstateAgent",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "MapCategoryType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "SportsOrganization",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "EndorseAction",
+      "parent": [
+        "ReactAction"
+      ]
+    },
+    {
+      "name": "EducationalOrganization",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "CableOrSatelliteService",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "HinduTemple",
+      "parent": [
+        "PlaceOfWorship"
+      ]
+    },
+    {
+      "name": "TVSeason",
+      "parent": [
+        "CreativeWork",
+        "CreativeWorkSeason"
+      ]
+    },
+    {
+      "name": "SearchResultsPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "UserBlocks",
+      "parent": [
+        "UserInteraction"
+      ]
+    },
+    {
+      "name": "DanceEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "BookStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "EntryPoint",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "SaleEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "FoodEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "DigitalDocumentPermission",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "OutletStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "OrderAction",
+      "parent": [
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "InviteAction",
+      "parent": [
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "TVEpisode",
+      "parent": [
+        "Episode"
+      ]
+    },
+    {
+      "name": "MusicGroup",
+      "parent": [
+        "PerformingGroup"
+      ]
+    },
+    {
+      "name": "AmusementPark",
+      "parent": [
+        "EntertainmentBusiness"
+      ]
+    },
+    {
+      "name": "ContactPointOption",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Casino",
+      "parent": [
+        "EntertainmentBusiness"
+      ]
+    },
+    {
+      "name": "HearingImpairedSupported",
+      "parent": []
+    },
+    {
+      "name": "SubscribeAction",
+      "parent": [
+        "InteractAction"
+      ]
+    },
+    {
+      "name": "BusinessEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "RiverBodyOfWater",
+      "parent": [
+        "BodyOfWater"
+      ]
+    },
+    {
+      "name": "GameServer",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "DepositAccount",
+      "parent": [
+        "InvestmentOrDeposit",
+        "BankAccount"
+      ]
+    },
+    {
+      "name": "DigitalDocumentPermissionType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Motel",
+      "parent": [
+        "LodgingBusiness"
+      ]
+    },
+    {
+      "name": "WPAdBlock",
+      "parent": [
+        "WebPageElement"
+      ]
+    },
+    {
+      "name": "MultiPlayer",
+      "parent": []
+    },
+    {
+      "name": "ChildCare",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "InternetCafe",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "PaymentStatusType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "MusicAlbumReleaseType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Pharmacy",
+      "parent": [
+        "MedicalBusiness",
+        "MedicalOrganization"
+      ]
+    },
+    {
+      "name": "DefenceEstablishment",
+      "parent": [
+        "GovernmentBuilding"
+      ]
+    },
+    {
+      "name": "BreadcrumbList",
+      "parent": [
+        "ItemList"
+      ]
+    },
+    {
+      "name": "Church",
+      "parent": [
+        "PlaceOfWorship"
+      ]
+    },
+    {
+      "name": "LiquorStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "UsedCondition",
+      "parent": []
+    },
+    {
+      "name": "PublicationIssue",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "GameServerStatus",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Article",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "UserTweets",
+      "parent": [
+        "UserInteraction"
+      ]
+    },
+    {
+      "name": "Enumeration",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "ParkingMap",
+      "parent": []
+    },
+    {
+      "name": "WebPageElement",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "VideoGame",
+      "parent": [
+        "Game",
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "UserInteraction",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "MobilePhoneStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "Text",
+      "parent": []
+    },
+    {
+      "name": "Airline",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "LiveBlogPosting",
+      "parent": [
+        "BlogPosting"
+      ]
+    },
+    {
+      "name": "BikeStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "BuddhistTemple",
+      "parent": [
+        "PlaceOfWorship"
+      ]
+    },
+    {
+      "name": "MenuSection",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "AutoRental",
+      "parent": [
+        "AutomotiveBusiness"
+      ]
+    },
+    {
+      "name": "ReadPermission",
+      "parent": []
+    },
+    {
+      "name": "PublicHolidays",
+      "parent": []
+    },
+    {
+      "name": "LoanOrCredit",
+      "parent": [
+        "FinancialProduct"
+      ]
+    },
+    {
+      "name": "HotelRoom",
+      "parent": [
+        "Room"
+      ]
+    },
+    {
+      "name": "WebSite",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "Movie",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "EventReservation",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "EventPostponed",
+      "parent": []
+    },
+    {
+      "name": "OrganizeAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "Audience",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "EventRescheduled",
+      "parent": []
+    },
+    {
+      "name": "Restaurant",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "AgreeAction",
+      "parent": [
+        "ReactAction"
+      ]
+    },
+    {
+      "name": "Integer",
+      "parent": [
+        "Number"
+      ]
+    },
+    {
+      "name": "UseAction",
+      "parent": [
+        "ConsumeAction"
+      ]
+    },
+    {
+      "name": "APIReference",
+      "parent": [
+        "TechArticle"
+      ]
+    },
+    {
+      "name": "DepartmentStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "FilmAction",
+      "parent": [
+        "CreateAction"
+      ]
+    },
+    {
+      "name": "Tuesday",
+      "parent": []
+    },
+    {
+      "name": "SoftwareApplication",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "Code",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "SportingGoodsStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "TextDigitalDocument",
+      "parent": [
+        "DigitalDocument"
+      ]
+    },
+    {
+      "name": "DemoAlbum",
+      "parent": []
+    },
+    {
+      "name": "QuantitativeValueDistribution",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "CoOp",
+      "parent": []
+    },
+    {
+      "name": "Waterfall",
+      "parent": [
+        "BodyOfWater"
+      ]
+    },
+    {
+      "name": "OfficeEquipmentStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "RightHandDriving",
+      "parent": []
+    },
+    {
+      "name": "PaymentComplete",
+      "parent": []
+    },
+    {
+      "name": "PlanAction",
+      "parent": [
+        "OrganizeAction"
+      ]
+    },
+    {
+      "name": "MovieTheater",
+      "parent": [
+        "CivicStructure",
+        "EntertainmentBusiness"
+      ]
+    },
+    {
+      "name": "Bakery",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "GatedResidenceCommunity",
+      "parent": [
+        "Residence"
+      ]
+    },
+    {
+      "name": "Country",
+      "parent": [
+        "AdministrativeArea"
+      ]
+    },
+    {
+      "name": "PlaceOfWorship",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "HowToTip",
+      "parent": [
+        "CreativeWork",
+        "ListItem"
+      ]
+    },
+    {
+      "name": "ComputerLanguage",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "PerformanceRole",
+      "parent": [
+        "Role"
+      ]
+    },
+    {
+      "name": "UnitPriceSpecification",
+      "parent": [
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "PerformAction",
+      "parent": [
+        "PlayAction"
+      ]
+    },
+    {
+      "name": "BedType",
+      "parent": [
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "HinduDiet",
+      "parent": []
+    },
+    {
+      "name": "Mountain",
+      "parent": [
+        "Landform"
+      ]
+    },
+    {
+      "name": "CivicStructure",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "ReceiveAction",
+      "parent": [
+        "TransferAction"
+      ]
+    },
+    {
+      "name": "VideoGameClip",
+      "parent": [
+        "Clip"
+      ]
+    },
+    {
+      "name": "MusicStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "Crematorium",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "QuoteAction",
+      "parent": [
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "PropertyValue",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "ListItem",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "ContactPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "WebApplication",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "BroadcastFrequencySpecification",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "BlogPosting",
+      "parent": [
+        "SocialMediaPosting"
+      ]
+    },
+    {
+      "name": "LodgingReservation",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "PreOrderAction",
+      "parent": [
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "MediaSubscription",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "PresentationDigitalDocument",
+      "parent": [
+        "DigitalDocument"
+      ]
+    },
+    {
+      "name": "GlutenFreeDiet",
+      "parent": []
+    },
+    {
+      "name": "Report",
+      "parent": [
+        "Article"
+      ]
+    },
+    {
+      "name": "Monday",
+      "parent": []
+    },
+    {
+      "name": "StructuredValue",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "OfferItemCondition",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "LocationFeatureSpecification",
+      "parent": [
+        "PropertyValue"
+      ]
+    },
+    {
+      "name": "MusicRelease",
+      "parent": [
+        "MusicPlaylist"
+      ]
+    },
+    {
+      "name": "ReservationConfirmed",
+      "parent": []
+    },
+    {
+      "name": "TechArticle",
+      "parent": [
+        "Article"
+      ]
+    },
+    {
+      "name": "Sculpture",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "ComputerStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "RadioStation",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "SingleRelease",
+      "parent": []
+    },
+    {
+      "name": "OrderProblem",
+      "parent": []
+    },
+    {
+      "name": "Map",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "GolfCourse",
+      "parent": [
+        "SportsActivityLocation"
+      ]
+    },
+    {
+      "name": "DepartAction",
+      "parent": [
+        "MoveAction"
+      ]
+    },
+    {
+      "name": "TollFree",
+      "parent": []
+    },
+    {
+      "name": "ActionAccessSpecification",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "Number",
+      "parent": []
+    },
+    {
+      "name": "Comment",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "ShoeStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "FMRadioChannel",
+      "parent": [
+        "RadioChannel"
+      ]
+    },
+    {
+      "name": "WPSideBar",
+      "parent": [
+        "WebPageElement"
+      ]
+    },
+    {
+      "name": "FlightReservation",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "AlignmentObject",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "SellAction",
+      "parent": [
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "PetStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "OnDemandEvent",
+      "parent": [
+        "PublicationEvent"
+      ]
+    },
+    {
+      "name": "HalalDiet",
+      "parent": []
+    },
+    {
+      "name": "AutoDealer",
+      "parent": [
+        "AutomotiveBusiness"
+      ]
+    },
+    {
+      "name": "ChooseAction",
+      "parent": [
+        "AssessAction"
+      ]
+    },
+    {
+      "name": "RestrictedDiet",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "GovernmentOffice",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "Place",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "QualitativeValue",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "EventMovedOnline",
+      "parent": []
+    },
+    {
+      "name": "SendAction",
+      "parent": [
+        "TransferAction"
+      ]
+    },
+    {
+      "name": "VinylFormat",
+      "parent": []
+    },
+    {
+      "name": "LeaveAction",
+      "parent": [
+        "InteractAction"
+      ]
+    },
+    {
+      "name": "GasStation",
+      "parent": [
+        "AutomotiveBusiness"
+      ]
+    },
+    {
+      "name": "Mosque",
+      "parent": [
+        "PlaceOfWorship"
+      ]
+    },
+    {
+      "name": "AssessAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "CommentAction",
+      "parent": [
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "ItemListOrderDescending",
+      "parent": []
+    },
+    {
+      "name": "Library",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "TouristInformationCenter",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "MusicComposition",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "ProfessionalService",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "Aquarium",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "SelfStorage",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "ReservationPending",
+      "parent": []
+    },
+    {
+      "name": "GeoShape",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "EntertainmentBusiness",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "BroadcastChannel",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "Florist",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "Mass",
+      "parent": [
+        "Quantity"
+      ]
+    },
+    {
+      "name": "HowToTool",
+      "parent": [
+        "HowToItem"
+      ]
+    },
+    {
+      "name": "CassetteFormat",
+      "parent": []
+    },
+    {
+      "name": "PaymentMethod",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "UserPlusOnes",
+      "parent": [
+        "UserInteraction"
+      ]
+    },
+    {
+      "name": "Barcode",
+      "parent": [
+        "ImageObject"
+      ]
+    },
+    {
+      "name": "WebPage",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "Residence",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "UserPageVisits",
+      "parent": [
+        "UserInteraction"
+      ]
+    },
+    {
+      "name": "FrontWheelDriveConfiguration",
+      "parent": []
+    },
+    {
+      "name": "Continent",
+      "parent": [
+        "Landform"
+      ]
+    },
+    {
+      "name": "BusTrip",
+      "parent": [
+        "Trip"
+      ]
+    },
+    {
+      "name": "UnRegisterAction",
+      "parent": [
+        "InteractAction"
+      ]
+    },
+    {
+      "name": "OfflinePermanently",
+      "parent": []
+    },
+    {
+      "name": "LoseAction",
+      "parent": [
+        "AchieveAction"
+      ]
+    },
+    {
+      "name": "ShoppingCenter",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "Flight",
+      "parent": [
+        "Trip"
+      ]
+    },
+    {
+      "name": "HowToStep",
+      "parent": [
+        "ItemList",
+        "ListItem",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "OfferCatalog",
+      "parent": [
+        "ItemList"
+      ]
+    },
+    {
+      "name": "CreativeWorkSeries",
+      "parent": [
+        "Series",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "NightClub",
+      "parent": [
+        "EntertainmentBusiness"
+      ]
+    },
+    {
+      "name": "ConfirmAction",
+      "parent": [
+        "InformAction"
+      ]
+    },
+    {
+      "name": "PaymentPastDue",
+      "parent": []
+    },
+    {
+      "name": "FourWheelDriveConfiguration",
+      "parent": []
+    },
+    {
+      "name": "DataFeed",
+      "parent": [
+        "Dataset"
+      ]
+    },
+    {
+      "name": "State",
+      "parent": [
+        "AdministrativeArea"
+      ]
+    },
+    {
+      "name": "Playground",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "AppendAction",
+      "parent": [
+        "InsertAction"
+      ]
+    },
+    {
+      "name": "InteractionCounter",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "ParkingFacility",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "CookAction",
+      "parent": [
+        "CreateAction"
+      ]
+    },
+    {
+      "name": "Male",
+      "parent": []
+    },
+    {
+      "name": "AuthorizeAction",
+      "parent": [
+        "AllocateAction"
+      ]
+    },
+    {
+      "name": "BookSeries",
+      "parent": [
+        "CreativeWorkSeries"
+      ]
+    },
+    {
+      "name": "SpokenWordAlbum",
+      "parent": []
+    },
+    {
+      "name": "BeautySalon",
+      "parent": [
+        "HealthAndBeautyBusiness"
+      ]
+    },
+    {
+      "name": "UserDownloads",
+      "parent": [
+        "UserInteraction"
+      ]
+    },
+    {
+      "name": "PawnShop",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "AssignAction",
+      "parent": [
+        "AllocateAction"
+      ]
+    },
+    {
+      "name": "PayAction",
+      "parent": [
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "HighSchool",
+      "parent": [
+        "EducationalOrganization"
+      ]
+    },
+    {
+      "name": "TypeAndQuantityNode",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "SteeringPositionValue",
+      "parent": [
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "AudiobookFormat",
+      "parent": []
+    },
+    {
+      "name": "SportsClub",
+      "parent": [
+        "SportsActivityLocation"
+      ]
+    },
+    {
+      "name": "OrderDelivered",
+      "parent": []
+    },
+    {
+      "name": "TrainTrip",
+      "parent": [
+        "Trip"
+      ]
+    },
+    {
+      "name": "Bridge",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "TrainStation",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "DatedMoneySpecification",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "PaymentDue",
+      "parent": []
+    },
+    {
+      "name": "Friday",
+      "parent": []
+    },
+    {
+      "name": "ReserveAction",
+      "parent": [
+        "PlanAction"
+      ]
+    },
+    {
+      "name": "WritePermission",
+      "parent": []
+    },
+    {
+      "name": "PaymentService",
+      "parent": [
+        "FinancialProduct"
+      ]
+    },
+    {
+      "name": "SpeakableSpecification",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "RsvpResponseNo",
+      "parent": []
+    },
+    {
+      "name": "InteractAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "AMRadioChannel",
+      "parent": [
+        "RadioChannel"
+      ]
+    },
+    {
+      "name": "AutoBodyShop",
+      "parent": [
+        "AutomotiveBusiness"
+      ]
+    },
+    {
+      "name": "Permit",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "LaserDiscFormat",
+      "parent": []
+    },
+    {
+      "name": "ConvenienceStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "School",
+      "parent": [
+        "EducationalOrganization"
+      ]
+    },
+    {
+      "name": "TelevisionStation",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "HomeGoodsStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "LakeBodyOfWater",
+      "parent": [
+        "BodyOfWater"
+      ]
+    },
+    {
+      "name": "LowLactoseDiet",
+      "parent": []
+    },
+    {
+      "name": "BodyOfWater",
+      "parent": [
+        "Landform"
+      ]
+    },
+    {
+      "name": "RadioSeries",
+      "parent": [
+        "CreativeWorkSeries"
+      ]
+    },
+    {
+      "name": "MusicVideoObject",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "Beach",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "SpreadsheetDigitalDocument",
+      "parent": [
+        "DigitalDocument"
+      ]
+    },
+    {
+      "name": "HowToItem",
+      "parent": [
+        "ListItem"
+      ]
+    },
+    {
+      "name": "ShareAction",
+      "parent": [
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "WPHeader",
+      "parent": [
+        "WebPageElement"
+      ]
+    },
+    {
+      "name": "LandmarksOrHistoricalBuildings",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "MarryAction",
+      "parent": [
+        "InteractAction"
+      ]
+    },
+    {
+      "name": "Notary",
+      "parent": [
+        "LegalService"
+      ]
+    },
+    {
+      "name": "IceCreamShop",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "ReactAction",
+      "parent": [
+        "AssessAction"
+      ]
+    },
+    {
+      "name": "Message",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "InvestmentOrDeposit",
+      "parent": [
+        "FinancialProduct"
+      ]
+    },
+    {
+      "name": "DryCleaningOrLaundry",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "DeactivateAction",
+      "parent": [
+        "ControlAction"
+      ]
+    },
+    {
+      "name": "FastFoodRestaurant",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "DataFeedItem",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "OrderStatus",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "SocialMediaPosting",
+      "parent": [
+        "Article"
+      ]
+    },
+    {
+      "name": "Park",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "VoteAction",
+      "parent": [
+        "ChooseAction"
+      ]
+    },
+    {
+      "name": "BookFormatType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "AchieveAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "Zoo",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "Boolean",
+      "parent": []
+    },
+    {
+      "name": "ItemListOrderType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "ComedyClub",
+      "parent": [
+        "EntertainmentBusiness"
+      ]
+    },
+    {
+      "name": "ServiceChannel",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "ExhibitionEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "RentAction",
+      "parent": [
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "EmployeeRole",
+      "parent": [
+        "OrganizationRole"
+      ]
+    },
+    {
+      "name": "EmploymentAgency",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "PrependAction",
+      "parent": [
+        "InsertAction"
+      ]
+    },
+    {
+      "name": "FireStation",
+      "parent": [
+        "CivicStructure",
+        "EmergencyService"
+      ]
+    },
+    {
+      "name": "CourseInstance",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "Hotel",
+      "parent": [
+        "LodgingBusiness"
+      ]
+    },
+    {
+      "name": "IndividualProduct",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "Book",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "RadioClip",
+      "parent": [
+        "Clip"
+      ]
+    },
+    {
+      "name": "Intangible",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "ElectronicsStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "OfflineTemporarily",
+      "parent": []
+    },
+    {
+      "name": "Order",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "EventScheduled",
+      "parent": []
+    },
+    {
+      "name": "TVClip",
+      "parent": [
+        "Clip"
+      ]
+    },
+    {
+      "name": "NailSalon",
+      "parent": [
+        "HealthAndBeautyBusiness"
+      ]
+    },
+    {
+      "name": "ContactPoint",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "GeneralContractor",
+      "parent": [
+        "HomeAndConstructionBusiness"
+      ]
+    },
+    {
+      "name": "PreSale",
+      "parent": []
+    },
+    {
+      "name": "InStock",
+      "parent": []
+    },
+    {
+      "name": "TelevisionChannel",
+      "parent": [
+        "BroadcastChannel"
+      ]
+    },
+    {
+      "name": "GovernmentBuilding",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "EmergencyService",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "FinancialService",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "VideoObject",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "CollectionPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "Menu",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "Periodical",
+      "parent": [
+        "CreativeWorkSeries"
+      ]
+    },
+    {
+      "name": "MovieSeries",
+      "parent": [
+        "CreativeWorkSeries"
+      ]
+    },
+    {
+      "name": "Series",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "VegetarianDiet",
+      "parent": []
+    },
+    {
+      "name": "Electrician",
+      "parent": [
+        "HomeAndConstructionBusiness"
+      ]
+    },
+    {
+      "name": "WarrantyScope",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "PhotographAction",
+      "parent": [
+        "CreateAction"
+      ]
+    },
+    {
+      "name": "HealthAndBeautyBusiness",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "LegislativeBuilding",
+      "parent": [
+        "GovernmentBuilding"
+      ]
+    },
+    {
+      "name": "UserCheckins",
+      "parent": [
+        "UserInteraction"
+      ]
+    },
+    {
+      "name": "VideoGameSeries",
+      "parent": [
+        "CreativeWorkSeries"
+      ]
+    },
+    {
+      "name": "WearAction",
+      "parent": [
+        "UseAction"
+      ]
+    },
+    {
+      "name": "TravelAgency",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "PerformingGroup",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "Hostel",
+      "parent": [
+        "LodgingBusiness"
+      ]
+    },
+    {
+      "name": "WinAction",
+      "parent": [
+        "AchieveAction"
+      ]
+    },
+    {
+      "name": "Quantity",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "AllWheelDriveConfiguration",
+      "parent": []
+    },
+    {
+      "name": "VideoGallery",
+      "parent": [
+        "MediaGallery"
+      ]
+    },
+    {
+      "name": "EducationalAudience",
+      "parent": [
+        "Audience"
+      ]
+    },
+    {
+      "name": "CityHall",
+      "parent": [
+        "GovernmentBuilding"
+      ]
+    },
+    {
+      "name": "ReservationCancelled",
+      "parent": []
+    },
+    {
+      "name": "ComedyEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "DonateAction",
+      "parent": [
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "Brand",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "MovingCompany",
+      "parent": [
+        "HomeAndConstructionBusiness"
+      ]
+    },
+    {
+      "name": "Question",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "ZoneBoardingPolicy",
+      "parent": []
+    },
+    {
+      "name": "BorrowAction",
+      "parent": [
+        "TransferAction"
+      ]
+    },
+    {
+      "name": "GardenStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "ReviewAction",
+      "parent": [
+        "AssessAction"
+      ]
+    },
+    {
+      "name": "UserComments",
+      "parent": [
+        "UserInteraction"
+      ]
+    },
+    {
+      "name": "NewCondition",
+      "parent": []
+    },
+    {
+      "name": "PaintAction",
+      "parent": [
+        "CreateAction"
+      ]
+    },
+    {
+      "name": "Blog",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "SportsActivityLocation",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "WarrantyPromise",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "EmployerAggregateRating",
+      "parent": [
+        "AggregateRating"
+      ]
+    },
+    {
+      "name": "Event",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "CompilationAlbum",
+      "parent": []
+    },
+    {
+      "name": "StudioAlbum",
+      "parent": []
+    },
+    {
+      "name": "AdultEntertainment",
+      "parent": [
+        "EntertainmentBusiness"
+      ]
+    },
+    {
+      "name": "DriveWheelConfigurationValue",
+      "parent": [
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "Role",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "LowCalorieDiet",
+      "parent": []
+    },
+    {
+      "name": "RearWheelDriveConfiguration",
+      "parent": []
+    },
+    {
+      "name": "City",
+      "parent": [
+        "AdministrativeArea"
+      ]
+    },
+    {
+      "name": "ConsumeAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "ScreeningEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "LimitedAvailability",
+      "parent": []
+    },
+    {
+      "name": "ArriveAction",
+      "parent": [
+        "MoveAction"
+      ]
+    },
+    {
+      "name": "BookmarkAction",
+      "parent": [
+        "OrganizeAction"
+      ]
+    },
+    {
+      "name": "EventCancelled",
+      "parent": []
+    },
+    {
+      "name": "CreateAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "ScheduleAction",
+      "parent": [
+        "PlanAction"
+      ]
+    },
+    {
+      "name": "Dentist",
+      "parent": [
+        "LocalBusiness",
+        "MedicalBusiness",
+        "MedicalOrganization"
+      ]
+    },
+    {
+      "name": "DiscoverAction",
+      "parent": [
+        "FindAction"
+      ]
+    },
+    {
+      "name": "EndorsementRating",
+      "parent": [
+        "Rating"
+      ]
+    },
+    {
+      "name": "InstallAction",
+      "parent": [
+        "ConsumeAction"
+      ]
+    },
+    {
+      "name": "MusicEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "Store",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "MonetaryAmount",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "HairSalon",
+      "parent": [
+        "HealthAndBeautyBusiness"
+      ]
+    },
+    {
+      "name": "DaySpa",
+      "parent": [
+        "HealthAndBeautyBusiness"
+      ]
+    },
+    {
+      "name": "EngineSpecification",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "ActivateAction",
+      "parent": [
+        "ControlAction"
+      ]
+    },
+    {
+      "name": "EventVenue",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "RadioEpisode",
+      "parent": [
+        "Episode"
+      ]
+    },
+    {
+      "name": "ElementarySchool",
+      "parent": [
+        "EducationalOrganization"
+      ]
+    },
+    {
+      "name": "ReplaceAction",
+      "parent": [
+        "UpdateAction"
+      ]
+    },
+    {
+      "name": "CreditCard",
+      "parent": [
+        "PaymentCard",
+        "LoanOrCredit"
+      ]
+    },
+    {
+      "name": "OpeningHoursSpecification",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "DislikeAction",
+      "parent": [
+        "ReactAction"
+      ]
+    },
+    {
+      "name": "PlayAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "BankOrCreditUnion",
+      "parent": [
+        "FinancialService"
+      ]
+    },
+    {
+      "name": "FAQPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "TieAction",
+      "parent": [
+        "AchieveAction"
+      ]
+    },
+    {
+      "name": "Corporation",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "ItemList",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "DeliveryMethod",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Winery",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "InformAction",
+      "parent": [
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "ReturnAction",
+      "parent": [
+        "TransferAction"
+      ]
+    },
+    {
+      "name": "MeetingRoom",
+      "parent": [
+        "Room"
+      ]
+    },
+    {
+      "name": "SeatingMap",
+      "parent": []
+    },
+    {
+      "name": "MonetaryAmountDistribution",
+      "parent": [
+        "QuantitativeValueDistribution"
+      ]
+    },
+    {
+      "name": "StadiumOrArena",
+      "parent": [
+        "CivicStructure",
+        "SportsActivityLocation"
+      ]
+    },
+    {
+      "name": "JoinAction",
+      "parent": [
+        "InteractAction"
+      ]
+    },
+    {
+      "name": "OrderInTransit",
+      "parent": []
+    },
+    {
+      "name": "DJMixAlbum",
+      "parent": []
+    },
+    {
+      "name": "SearchAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "HVACBusiness",
+      "parent": [
+        "HomeAndConstructionBusiness"
+      ]
+    },
+    {
+      "name": "TaxiStand",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "ProductModel",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "CatholicChurch",
+      "parent": [
+        "Church"
+      ]
+    },
+    {
+      "name": "MovieClip",
+      "parent": [
+        "Clip"
+      ]
+    },
+    {
+      "name": "ActionStatusType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "WriteAction",
+      "parent": [
+        "CreateAction"
+      ]
+    },
+    {
+      "name": "MusicAlbumProductionType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "ApplyAction",
+      "parent": [
+        "OrganizeAction"
+      ]
+    },
+    {
+      "name": "DigitalFormat",
+      "parent": []
+    },
+    {
+      "name": "CDFormat",
+      "parent": []
+    },
+    {
+      "name": "Locksmith",
+      "parent": [
+        "HomeAndConstructionBusiness"
+      ]
+    },
+    {
+      "name": "Landform",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "Discontinued",
+      "parent": []
+    },
+    {
+      "name": "Episode",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "OceanBodyOfWater",
+      "parent": [
+        "BodyOfWater"
+      ]
+    },
+    {
+      "name": "MedicalOrganization",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "TrainReservation",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "Online",
+      "parent": []
+    },
+    {
+      "name": "MusicVenue",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "Review",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "PostalAddress",
+      "parent": [
+        "ContactPoint"
+      ]
+    },
+    {
+      "name": "ClaimReview",
+      "parent": [
+        "Review"
+      ]
+    },
+    {
+      "name": "CollegeOrUniversity",
+      "parent": [
+        "EducationalOrganization"
+      ]
+    },
+    {
+      "name": "SoftwareSourceCode",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "Clip",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "Seat",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "OnlineFull",
+      "parent": []
+    },
+    {
+      "name": "OnlineOnly",
+      "parent": []
+    },
+    {
+      "name": "WantAction",
+      "parent": [
+        "ReactAction"
+      ]
+    },
+    {
+      "name": "ReadAction",
+      "parent": [
+        "ConsumeAction"
+      ]
+    },
+    {
+      "name": "Specialty",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "TaxiService",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "OnSitePickup",
+      "parent": []
+    },
+    {
+      "name": "FailedActionStatus",
+      "parent": []
+    },
+    {
+      "name": "ItemAvailability",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Occupation",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "ArtGallery",
+      "parent": [
+        "EntertainmentBusiness"
+      ]
+    },
+    {
+      "name": "GroupBoardingPolicy",
+      "parent": []
+    },
+    {
+      "name": "Plumber",
+      "parent": [
+        "HomeAndConstructionBusiness"
+      ]
+    },
+    {
+      "name": "Preschool",
+      "parent": [
+        "EducationalOrganization"
+      ]
+    },
+    {
+      "name": "OrderCancelled",
+      "parent": []
+    },
+    {
+      "name": "RejectAction",
+      "parent": [
+        "AllocateAction"
+      ]
+    },
+    {
+      "name": "TattooParlor",
+      "parent": [
+        "HealthAndBeautyBusiness"
+      ]
+    },
+    {
+      "name": "GeoCircle",
+      "parent": [
+        "GeoShape"
+      ]
+    },
+    {
+      "name": "BusinessFunction",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Female",
+      "parent": []
+    },
+    {
+      "name": "Energy",
+      "parent": [
+        "Quantity"
+      ]
+    },
+    {
+      "name": "FurnitureStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "BusStop",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "MotorcycleRepair",
+      "parent": [
+        "AutomotiveBusiness"
+      ]
+    },
+    {
+      "name": "OrderPaymentDue",
+      "parent": []
+    },
+    {
+      "name": "GovernmentPermit",
+      "parent": [
+        "Permit"
+      ]
+    },
+    {
+      "name": "InsertAction",
+      "parent": [
+        "AddAction"
+      ]
+    },
+    {
+      "name": "Resort",
+      "parent": [
+        "LodgingBusiness"
+      ]
+    },
+    {
+      "name": "Invoice",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "Table",
+      "parent": [
+        "WebPageElement"
+      ]
+    },
+    {
+      "name": "URL",
+      "parent": [
+        "Text"
+      ]
+    },
+    {
+      "name": "CompoundPriceSpecification",
+      "parent": [
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "PeopleAudience",
+      "parent": [
+        "Audience"
+      ]
+    },
+    {
+      "name": "GovernmentOrganization",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "InStoreOnly",
+      "parent": []
+    },
+    {
+      "name": "FoodEstablishmentReservation",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "DataCatalog",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "PaymentChargeSpecification",
+      "parent": [
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "Saturday",
+      "parent": []
+    },
+    {
+      "name": "BusReservation",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "DVDFormat",
+      "parent": []
+    },
+    {
+      "name": "Taxi",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "ItemPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "Physician",
+      "parent": [
+        "MedicalBusiness",
+        "MedicalOrganization"
+      ]
+    },
+    {
+      "name": "RsvpResponseType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "OrderItem",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "BusinessEntityType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "TipAction",
+      "parent": [
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "HowToDirection",
+      "parent": [
+        "CreativeWork",
+        "ListItem"
+      ]
+    },
+    {
+      "name": "Apartment",
+      "parent": [
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "NoteDigitalDocument",
+      "parent": [
+        "DigitalDocument"
+      ]
+    },
+    {
+      "name": "Service",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "Campground",
+      "parent": [
+        "LodgingBusiness",
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "PaymentDeclined",
+      "parent": []
+    },
+    {
+      "name": "TennisComplex",
+      "parent": [
+        "SportsActivityLocation"
+      ]
+    },
+    {
+      "name": "Thing",
+      "parent": []
+    },
+    {
+      "name": "Photograph",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "SubwayStation",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "VenueMap",
+      "parent": []
+    },
+    {
+      "name": "Courthouse",
+      "parent": [
+        "GovernmentBuilding"
+      ]
+    },
+    {
+      "name": "BroadcastService",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "ReservationStatusType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "AutoWash",
+      "parent": [
+        "AutomotiveBusiness"
+      ]
+    },
+    {
+      "name": "Researcher",
+      "parent": []
+    },
+    {
+      "name": "HardwareStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "AskAction",
+      "parent": [
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "CommentPermission",
+      "parent": []
+    },
+    {
+      "name": "LowFatDiet",
+      "parent": []
+    },
+    {
+      "name": "VisualArtsEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "TrackAction",
+      "parent": [
+        "FindAction"
+      ]
+    },
+    {
+      "name": "DanceGroup",
+      "parent": [
+        "PerformingGroup"
+      ]
+    },
+    {
+      "name": "MenuItem",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "CurrencyConversionService",
+      "parent": [
+        "FinancialProduct"
+      ]
+    },
+    {
+      "name": "RoofingContractor",
+      "parent": [
+        "HomeAndConstructionBusiness"
+      ]
+    },
+    {
+      "name": "GovernmentService",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "DeliveryEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "LowSaltDiet",
+      "parent": []
+    },
+    {
+      "name": "HobbyShop",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "FollowAction",
+      "parent": [
+        "InteractAction"
+      ]
+    },
+    {
+      "name": "ChildrensEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "RVPark",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "TransitMap",
+      "parent": []
+    },
+    {
+      "name": "DateTime",
+      "parent": []
+    },
+    {
+      "name": "SingleFamilyResidence",
+      "parent": [
+        "House"
+      ]
+    },
+    {
+      "name": "CompletedActionStatus",
+      "parent": []
+    },
+    {
+      "name": "ActiveActionStatus",
+      "parent": []
+    },
+    {
+      "name": "WholesaleStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "BroadcastEvent",
+      "parent": [
+        "PublicationEvent"
+      ]
+    },
+    {
+      "name": "RentalCarReservation",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "TravelAction",
+      "parent": [
+        "MoveAction"
+      ]
+    },
+    {
+      "name": "OrganizationRole",
+      "parent": [
+        "Role"
+      ]
+    },
+    {
+      "name": "SkiResort",
+      "parent": [
+        "SportsActivityLocation"
+      ]
+    },
+    {
+      "name": "AutomatedTeller",
+      "parent": [
+        "FinancialService"
+      ]
+    },
+    {
+      "name": "Canal",
+      "parent": [
+        "BodyOfWater"
+      ]
+    },
+    {
+      "name": "NGO",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "TVSeries",
+      "parent": [
+        "CreativeWork",
+        "CreativeWorkSeries"
+      ]
+    },
+    {
+      "name": "BarOrPub",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "Float",
+      "parent": [
+        "Number"
+      ]
+    },
+    {
+      "name": "DataType",
+      "parent": [
+        "rdfs:Class"
+      ]
+    },
+    {
+      "name": "SuspendAction",
+      "parent": [
+        "ControlAction"
+      ]
+    },
+    {
+      "name": "Distance",
+      "parent": [
+        "Quantity"
+      ]
+    },
+    {
+      "name": "MusicPlaylist",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "QuantitativeValue",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "ScholarlyArticle",
+      "parent": [
+        "Article"
+      ]
+    },
+    {
+      "name": "BedDetails",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "MediaGallery",
+      "parent": [
+        "CollectionPage"
+      ]
+    },
+    {
+      "name": "False",
+      "parent": []
+    },
+    {
+      "name": "OwnershipInfo",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "MensClothingStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "AcceptAction",
+      "parent": [
+        "AllocateAction"
+      ]
+    },
+    {
+      "name": "PaymentAutomaticallyApplied",
+      "parent": []
+    },
+    {
+      "name": "Language",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "NewsArticle",
+      "parent": [
+        "Article"
+      ]
+    },
+    {
+      "name": "TheaterGroup",
+      "parent": [
+        "PerformingGroup"
+      ]
+    },
+    {
+      "name": "ParcelDelivery",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "BoardingPolicyType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Pond",
+      "parent": [
+        "BodyOfWater"
+      ]
+    },
+    {
+      "name": "Answer",
+      "parent": [
+        "Comment"
+      ]
+    },
+    {
+      "name": "Brewery",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "AllocateAction",
+      "parent": [
+        "OrganizeAction"
+      ]
+    },
+    {
+      "name": "Thursday",
+      "parent": []
+    },
+    {
+      "name": "ParentAudience",
+      "parent": [
+        "PeopleAudience"
+      ]
+    },
+    {
+      "name": "Hardcover",
+      "parent": []
+    },
+    {
+      "name": "RadioChannel",
+      "parent": [
+        "BroadcastChannel"
+      ]
+    },
+    {
+      "name": "Room",
+      "parent": [
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "PublicSwimmingPool",
+      "parent": [
+        "SportsActivityLocation"
+      ]
+    },
+    {
+      "name": "JobPosting",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "Date",
+      "parent": []
+    },
+    {
+      "name": "MusicReleaseFormatType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Conversation",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "MediaObject",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "Cemetery",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "AccountingService",
+      "parent": [
+        "FinancialService"
+      ]
+    },
+    {
+      "name": "CheckInAction",
+      "parent": [
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "DayOfWeek",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "BusinessAudience",
+      "parent": [
+        "Audience"
+      ]
+    },
+    {
+      "name": "LodgingBusiness",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "House",
+      "parent": [
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "Airport",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "SinglePlayer",
+      "parent": []
+    },
+    {
+      "name": "EventStatusType",
+      "parent": [
+        "Enumeration"
+      ]
+    },
+    {
+      "name": "Ticket",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "CreativeWorkSeason",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "Reservation",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "ItemListUnordered",
+      "parent": []
+    },
+    {
+      "name": "FindAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "RecyclingCenter",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "Hospital",
+      "parent": [
+        "MedicalOrganization",
+        "EmergencyService",
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "Festival",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "LockerDelivery",
+      "parent": [
+        "DeliveryMethod"
+      ]
+    },
+    {
+      "name": "ClothingStore",
+      "parent": [
+        "Store"
+      ]
+    },
+    {
+      "name": "RadioSeason",
+      "parent": [
+        "CreativeWorkSeason"
+      ]
+    },
+    {
+      "name": "MixtapeAlbum",
+      "parent": []
+    },
+    {
+      "name": "UpdateAction",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "AggregateRating",
+      "parent": [
+        "Rating"
+      ]
+    },
+    {
+      "name": "ReplyAction",
+      "parent": [
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "EmailMessage",
+      "parent": [
+        "Message"
+      ]
+    },
+    {
+      "name": "Paperback",
+      "parent": []
+    },
+    {
+      "name": "BusStation",
+      "parent": [
+        "CivicStructure"
+      ]
+    },
+    {
+      "name": "BowlingAlley",
+      "parent": [
+        "SportsActivityLocation"
+      ]
+    },
+    {
+      "name": "ItemListOrderAscending",
+      "parent": []
+    },
+    {
+      "name": "ImageGallery",
+      "parent": [
+        "MediaGallery"
+      ]
+    },
+    {
+      "name": "Offer",
+      "parent": [
+        "Intangible"
+      ]
+    },
+    {
+      "name": "DataDownload",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "Product",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "CampingPitch",
+      "parent": [
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "GeoCoordinates",
+      "parent": [
+        "StructuredValue"
+      ]
+    },
+    {
+      "name": "MiddleSchool",
+      "parent": [
+        "EducationalOrganization"
+      ]
+    },
+    {
+      "name": "AutomotiveBusiness",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "LiteraryEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "SocialEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "EatAction",
+      "parent": [
+        "ConsumeAction"
+      ]
+    },
+    {
+      "name": "ReservationHold",
+      "parent": []
+    },
+    {
+      "name": "TheaterEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "TakeAction",
+      "parent": [
+        "TransferAction"
+      ]
+    },
+    {
+      "name": "SportsEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "GamePlayMode",
+      "parent": [
+        "Enumeration"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "name": "downloadUrl",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "pagination",
+      "parent": [
+        "Chapter",
+        "Article",
+        "PublicationIssue",
+        "PublicationVolume"
+      ]
+    },
+    {
+      "name": "gameItem",
+      "parent": [
+        "VideoGameSeries",
+        "Game"
+      ]
+    },
+    {
+      "name": "duringMedia",
+      "parent": [
+        "HowToDirection"
+      ]
+    },
+    {
+      "name": "departureStation",
+      "parent": [
+        "TrainTrip"
+      ]
+    },
+    {
+      "name": "musicCompositionForm",
+      "parent": [
+        "MusicComposition"
+      ]
+    },
+    {
+      "name": "result",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "isbn",
+      "parent": [
+        "Book"
+      ]
+    },
+    {
+      "name": "occupationLocation",
+      "parent": [
+        "Occupation"
+      ]
+    },
+    {
+      "name": "about",
+      "parent": [
+        "Event",
+        "CreativeWork",
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "accessibilitySummary",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "serviceAudience",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "serviceArea",
+      "parent": [
+        "ContactPoint",
+        "Service",
+        "Organization"
+      ]
+    },
+    {
+      "name": "memberOf",
+      "parent": [
+        "Organization",
+        "Person"
+      ]
+    },
+    {
+      "name": "nextItem",
+      "parent": [
+        "ListItem"
+      ]
+    },
+    {
+      "name": "recordingOf",
+      "parent": [
+        "MusicRecording"
+      ]
+    },
+    {
+      "name": "geoWithin",
+      "parent": [
+        "Place",
+        "GeospatialGeometry"
+      ]
+    },
+    {
+      "name": "audienceType",
+      "parent": [
+        "Audience"
+      ]
+    },
+    {
+      "name": "broadcastFrequency",
+      "parent": [
+        "BroadcastService",
+        "BroadcastChannel"
+      ]
+    },
+    {
+      "name": "interactionService",
+      "parent": [
+        "InteractionCounter"
+      ]
+    },
+    {
+      "name": "targetDescription",
+      "parent": [
+        "AlignmentObject"
+      ]
+    },
+    {
+      "name": "geoContains",
+      "parent": [
+        "GeospatialGeometry",
+        "Place"
+      ]
+    },
+    {
+      "name": "photo",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "ratingValue",
+      "parent": [
+        "Rating"
+      ]
+    },
+    {
+      "name": "address",
+      "parent": [
+        "Organization",
+        "Place",
+        "GeoShape",
+        "GeoCoordinates",
+        "Person"
+      ]
+    },
+    {
+      "name": "educationalAlignment",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "startTime",
+      "parent": [
+        "FoodEstablishmentReservation",
+        "MediaObject",
+        "Action"
+      ]
+    },
+    {
+      "name": "spouse",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "uploadDate",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "manufacturer",
+      "parent": [
+        "Product",
+        "DietarySupplement",
+        "Drug"
+      ]
+    },
+    {
+      "name": "urlTemplate",
+      "parent": [
+        "EntryPoint"
+      ]
+    },
+    {
+      "name": "discusses",
+      "parent": [
+        "UserComments"
+      ]
+    },
+    {
+      "name": "sku",
+      "parent": [
+        "Product",
+        "Demand",
+        "Offer"
+      ]
+    },
+    {
+      "name": "broadcastChannelId",
+      "parent": [
+        "BroadcastChannel"
+      ]
+    },
+    {
+      "name": "associatedMedia",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "exifData",
+      "parent": [
+        "ImageObject"
+      ]
+    },
+    {
+      "name": "query",
+      "parent": [
+        "SearchAction"
+      ]
+    },
+    {
+      "name": "sameAs",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "funder",
+      "parent": [
+        "Event",
+        "MonetaryGrant",
+        "Person",
+        "Organization",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "colleagues",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "playerType",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "sponsor",
+      "parent": [
+        "Grant",
+        "MedicalStudy",
+        "Person",
+        "Organization",
+        "Event",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "produces",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "latitude",
+      "parent": [
+        "Place",
+        "GeoCoordinates"
+      ]
+    },
+    {
+      "name": "arrivalAirport",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "bestRating",
+      "parent": [
+        "Rating"
+      ]
+    },
+    {
+      "name": "softwareRequirements",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "typeOfGood",
+      "parent": [
+        "OwnershipInfo",
+        "TypeAndQuantityNode"
+      ]
+    },
+    {
+      "name": "numberOfForwardGears",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "actionStatus",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "audio",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "deathDate",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "workExample",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "jobLocation",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "seasons",
+      "parent": [
+        "RadioSeries",
+        "VideoGameSeries",
+        "TVSeries"
+      ]
+    },
+    {
+      "name": "mileageFromOdometer",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "permissions",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "provider",
+      "parent": [
+        "Invoice",
+        "CreativeWork",
+        "Reservation",
+        "Trip",
+        "EducationalOccupationalProgram",
+        "ParcelDelivery",
+        "Service"
+      ]
+    },
+    {
+      "name": "screenCount",
+      "parent": [
+        "MovieTheater"
+      ]
+    },
+    {
+      "name": "openingHoursSpecification",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "occupancy",
+      "parent": [
+        "Apartment",
+        "SingleFamilyResidence",
+        "Suite",
+        "HotelRoom"
+      ]
+    },
+    {
+      "name": "saturatedFatContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "availabilityStarts",
+      "parent": [
+        "Demand",
+        "Offer",
+        "ActionAccessSpecification"
+      ]
+    },
+    {
+      "name": "encoding",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "interactivityType",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "benefits",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "albums",
+      "parent": [
+        "MusicGroup"
+      ]
+    },
+    {
+      "name": "authenticator",
+      "parent": [
+        "MediaSubscription"
+      ]
+    },
+    {
+      "name": "gamePlatform",
+      "parent": [
+        "VideoGameSeries",
+        "VideoGame"
+      ]
+    },
+    {
+      "name": "orderItemStatus",
+      "parent": [
+        "OrderItem"
+      ]
+    },
+    {
+      "name": "programMembershipUsed",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "trackingUrl",
+      "parent": [
+        "ParcelDelivery"
+      ]
+    },
+    {
+      "name": "bookEdition",
+      "parent": [
+        "Book"
+      ]
+    },
+    {
+      "name": "processorRequirements",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "grantee",
+      "parent": [
+        "DigitalDocumentPermission"
+      ]
+    },
+    {
+      "name": "percentile10",
+      "parent": [
+        "QuantitativeValueDistribution"
+      ]
+    },
+    {
+      "name": "membershipNumber",
+      "parent": [
+        "ProgramMembership"
+      ]
+    },
+    {
+      "name": "recipeYield",
+      "parent": [
+        "Recipe"
+      ]
+    },
+    {
+      "name": "gameServer",
+      "parent": [
+        "VideoGame"
+      ]
+    },
+    {
+      "name": "arrivalPlatform",
+      "parent": [
+        "TrainTrip"
+      ]
+    },
+    {
+      "name": "url",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "bed",
+      "parent": [
+        "HotelRoom",
+        "Suite"
+      ]
+    },
+    {
+      "name": "bookFormat",
+      "parent": [
+        "Book"
+      ]
+    },
+    {
+      "name": "availableDeliveryMethod",
+      "parent": [
+        "Offer",
+        "Demand"
+      ]
+    },
+    {
+      "name": "buyer",
+      "parent": [
+        "SellAction"
+      ]
+    },
+    {
+      "name": "maps",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "orderDate",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "workFeatured",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "recipeCategory",
+      "parent": [
+        "Recipe"
+      ]
+    },
+    {
+      "name": "fatContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "character",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "areaServed",
+      "parent": [
+        "Organization",
+        "Offer",
+        "Demand",
+        "ContactPoint",
+        "DeliveryChargeSpecification",
+        "Service"
+      ]
+    },
+    {
+      "name": "postOfficeBoxNumber",
+      "parent": [
+        "PostalAddress"
+      ]
+    },
+    {
+      "name": "audience",
+      "parent": [
+        "LodgingBusiness",
+        "PlayAction",
+        "CreativeWork",
+        "Product",
+        "Event",
+        "Service"
+      ]
+    },
+    {
+      "name": "awayTeam",
+      "parent": [
+        "SportsEvent"
+      ]
+    },
+    {
+      "name": "providesService",
+      "parent": [
+        "ServiceChannel"
+      ]
+    },
+    {
+      "name": "instructor",
+      "parent": [
+        "CourseInstance"
+      ]
+    },
+    {
+      "name": "sourceOrganization",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "remainingAttendeeCapacity",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "mpn",
+      "parent": [
+        "Product",
+        "Demand",
+        "Offer"
+      ]
+    },
+    {
+      "name": "isPartOf",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "cargoVolume",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "actor",
+      "parent": [
+        "Episode",
+        "TVSeries",
+        "Movie",
+        "Event",
+        "RadioSeries",
+        "VideoObject",
+        "Clip",
+        "VideoGameSeries",
+        "MovieSeries",
+        "VideoGame",
+        "CreativeWorkSeason"
+      ]
+    },
+    {
+      "name": "defaultValue",
+      "parent": [
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "beforeMedia",
+      "parent": [
+        "HowToDirection"
+      ]
+    },
+    {
+      "name": "actionOption",
+      "parent": [
+        "ChooseAction"
+      ]
+    },
+    {
+      "name": "height",
+      "parent": [
+        "Person",
+        "VisualArtwork",
+        "Product",
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "deliveryAddress",
+      "parent": [
+        "ParcelDelivery"
+      ]
+    },
+    {
+      "name": "performers",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "serialNumber",
+      "parent": [
+        "Offer",
+        "IndividualProduct",
+        "Demand"
+      ]
+    },
+    {
+      "name": "trackingNumber",
+      "parent": [
+        "ParcelDelivery"
+      ]
+    },
+    {
+      "name": "broadcastTimezone",
+      "parent": [
+        "BroadcastService"
+      ]
+    },
+    {
+      "name": "partOfSeries",
+      "parent": [
+        "Clip",
+        "CreativeWorkSeason",
+        "Episode"
+      ]
+    },
+    {
+      "name": "childMaxAge",
+      "parent": [
+        "ParentAudience"
+      ]
+    },
+    {
+      "name": "includedInDataCatalog",
+      "parent": [
+        "Dataset"
+      ]
+    },
+    {
+      "name": "workLocation",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "lyrics",
+      "parent": [
+        "MusicComposition"
+      ]
+    },
+    {
+      "name": "coverageStartTime",
+      "parent": [
+        "LiveBlogPosting"
+      ]
+    },
+    {
+      "name": "busName",
+      "parent": [
+        "BusTrip"
+      ]
+    },
+    {
+      "name": "vehicleInteriorColor",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "browserRequirements",
+      "parent": [
+        "WebApplication"
+      ]
+    },
+    {
+      "name": "floorSize",
+      "parent": [
+        "Accommodation",
+        "FloorPlan"
+      ]
+    },
+    {
+      "name": "appliesToPaymentMethod",
+      "parent": [
+        "PaymentChargeSpecification"
+      ]
+    },
+    {
+      "name": "departureBusStop",
+      "parent": [
+        "BusTrip"
+      ]
+    },
+    {
+      "name": "bitrate",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "events",
+      "parent": [
+        "Organization",
+        "Place"
+      ]
+    },
+    {
+      "name": "videoFormat",
+      "parent": [
+        "BroadcastEvent",
+        "ScreeningEvent",
+        "BroadcastService"
+      ]
+    },
+    {
+      "name": "servesCuisine",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "paymentDue",
+      "parent": [
+        "Invoice",
+        "Order"
+      ]
+    },
+    {
+      "name": "numberOfEpisodes",
+      "parent": [
+        "RadioSeries",
+        "CreativeWorkSeason",
+        "VideoGameSeries",
+        "TVSeries"
+      ]
+    },
+    {
+      "name": "requiresSubscription",
+      "parent": [
+        "MediaObject",
+        "ActionAccessSpecification"
+      ]
+    },
+    {
+      "name": "minValue",
+      "parent": [
+        "MonetaryAmount",
+        "QuantitativeValue",
+        "PropertyValue",
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "actionApplication",
+      "parent": [
+        "EntryPoint"
+      ]
+    },
+    {
+      "name": "trailer",
+      "parent": [
+        "CreativeWorkSeason",
+        "Movie",
+        "VideoGame",
+        "RadioSeries",
+        "TVSeries",
+        "MovieSeries",
+        "VideoGameSeries",
+        "Episode"
+      ]
+    },
+    {
+      "name": "arrivalGate",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "loanTerm",
+      "parent": [
+        "LoanOrCredit"
+      ]
+    },
+    {
+      "name": "target",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "includedComposition",
+      "parent": [
+        "MusicComposition"
+      ]
+    },
+    {
+      "name": "alternateName",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "minPrice",
+      "parent": [
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "regionsAllowed",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "priceRange",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "children",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "orderNumber",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "gtin8",
+      "parent": [
+        "Product",
+        "Demand",
+        "Offer"
+      ]
+    },
+    {
+      "name": "image",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "endDate",
+      "parent": [
+        "EducationalOccupationalProgram",
+        "Role",
+        "Schedule",
+        "DatedMoneySpecification",
+        "Event",
+        "CreativeWorkSeason",
+        "CreativeWorkSeries"
+      ]
+    },
+    {
+      "name": "annualPercentageRate",
+      "parent": [
+        "FinancialProduct"
+      ]
+    },
+    {
+      "name": "hasDeliveryMethod",
+      "parent": [
+        "ParcelDelivery",
+        "DeliveryEvent"
+      ]
+    },
+    {
+      "name": "numTracks",
+      "parent": [
+        "MusicPlaylist"
+      ]
+    },
+    {
+      "name": "season",
+      "parent": [
+        "RadioSeries",
+        "TVSeries",
+        "VideoGameSeries"
+      ]
+    },
+    {
+      "name": "itemListElement",
+      "parent": [
+        "ItemList"
+      ]
+    },
+    {
+      "name": "paymentUrl",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "greater",
+      "parent": [
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "blogPosts",
+      "parent": [
+        "Blog"
+      ]
+    },
+    {
+      "name": "artMedium",
+      "parent": [
+        "VisualArtwork"
+      ]
+    },
+    {
+      "name": "partOfEpisode",
+      "parent": [
+        "Clip"
+      ]
+    },
+    {
+      "name": "orderStatus",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "prepTime",
+      "parent": [
+        "HowToDirection",
+        "HowTo"
+      ]
+    },
+    {
+      "name": "recordLabel",
+      "parent": [
+        "MusicRelease"
+      ]
+    },
+    {
+      "name": "agent",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "reservationStatus",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "vehicleSeatingCapacity",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "validFor",
+      "parent": [
+        "EducationalOccupationalCredential",
+        "Permit"
+      ]
+    },
+    {
+      "name": "incentiveCompensation",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "reviewRating",
+      "parent": [
+        "Review"
+      ]
+    },
+    {
+      "name": "hasOccupation",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "propertyID",
+      "parent": [
+        "PropertyValue"
+      ]
+    },
+    {
+      "name": "appliesToDeliveryMethod",
+      "parent": [
+        "DeliveryChargeSpecification",
+        "PaymentChargeSpecification"
+      ]
+    },
+    {
+      "name": "video",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "targetProduct",
+      "parent": [
+        "SoftwareSourceCode"
+      ]
+    },
+    {
+      "name": "episodes",
+      "parent": [
+        "VideoGameSeries",
+        "TVSeries",
+        "RadioSeries",
+        "CreativeWorkSeason"
+      ]
+    },
+    {
+      "name": "course",
+      "parent": [
+        "ExerciseAction"
+      ]
+    },
+    {
+      "name": "doorTime",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "subOrganization",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "dateRead",
+      "parent": [
+        "Message"
+      ]
+    },
+    {
+      "name": "publisher",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "billingIncrement",
+      "parent": [
+        "UnitPriceSpecification"
+      ]
+    },
+    {
+      "name": "workHours",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "numberedPosition",
+      "parent": [
+        "OrganizationRole"
+      ]
+    },
+    {
+      "name": "broadcastServiceTier",
+      "parent": [
+        "BroadcastChannel"
+      ]
+    },
+    {
+      "name": "geoOverlaps",
+      "parent": [
+        "GeospatialGeometry",
+        "Place"
+      ]
+    },
+    {
+      "name": "isrcCode",
+      "parent": [
+        "MusicRecording"
+      ]
+    },
+    {
+      "name": "hasOfferCatalog",
+      "parent": [
+        "Person",
+        "Organization",
+        "Service"
+      ]
+    },
+    {
+      "name": "additionalType",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "valuePattern",
+      "parent": [
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "publication",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "underName",
+      "parent": [
+        "Reservation",
+        "Ticket"
+      ]
+    },
+    {
+      "name": "broadcastAffiliateOf",
+      "parent": [
+        "BroadcastService"
+      ]
+    },
+    {
+      "name": "vehicleEngine",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "text",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "deathPlace",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "name",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "value",
+      "parent": [
+        "PropertyValue",
+        "QuantitativeValue",
+        "MonetaryAmount"
+      ]
+    },
+    {
+      "name": "smokingAllowed",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "globalLocationNumber",
+      "parent": [
+        "Organization",
+        "Place",
+        "Person"
+      ]
+    },
+    {
+      "name": "vehicleModelDate",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "expires",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "videoFrameSize",
+      "parent": [
+        "VideoObject"
+      ]
+    },
+    {
+      "name": "publishedOn",
+      "parent": [
+        "PublicationEvent"
+      ]
+    },
+    {
+      "name": "cheatCode",
+      "parent": [
+        "VideoGameSeries",
+        "VideoGame"
+      ]
+    },
+    {
+      "name": "contributor",
+      "parent": [
+        "CreativeWork",
+        "Event"
+      ]
+    },
+    {
+      "name": "numberOfDoors",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "deliveryStatus",
+      "parent": [
+        "ParcelDelivery"
+      ]
+    },
+    {
+      "name": "coursePrerequisites",
+      "parent": [
+        "Course"
+      ]
+    },
+    {
+      "name": "characterAttribute",
+      "parent": [
+        "Game",
+        "VideoGameSeries"
+      ]
+    },
+    {
+      "name": "albumProductionType",
+      "parent": [
+        "MusicAlbum"
+      ]
+    },
+    {
+      "name": "yearsInOperation",
+      "parent": [
+        "BusinessAudience"
+      ]
+    },
+    {
+      "name": "amountOfThisGood",
+      "parent": [
+        "TypeAndQuantityNode"
+      ]
+    },
+    {
+      "name": "datasetTimeInterval",
+      "parent": [
+        "Dataset"
+      ]
+    },
+    {
+      "name": "checkinTime",
+      "parent": [
+        "LodgingBusiness",
+        "LodgingReservation"
+      ]
+    },
+    {
+      "name": "resultReview",
+      "parent": [
+        "ReviewAction"
+      ]
+    },
+    {
+      "name": "partOfTVSeries",
+      "parent": [
+        "TVEpisode",
+        "TVClip",
+        "TVSeason"
+      ]
+    },
+    {
+      "name": "carrier",
+      "parent": [
+        "ParcelDelivery",
+        "Flight"
+      ]
+    },
+    {
+      "name": "unsaturatedFatContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "maximumAttendeeCapacity",
+      "parent": [
+        "Place",
+        "Event"
+      ]
+    },
+    {
+      "name": "birthPlace",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "parentService",
+      "parent": [
+        "BroadcastService"
+      ]
+    },
+    {
+      "name": "reviews",
+      "parent": [
+        "Product",
+        "Offer",
+        "Place",
+        "Organization",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "menuAddOn",
+      "parent": [
+        "MenuItem"
+      ]
+    },
+    {
+      "name": "geoCrosses",
+      "parent": [
+        "GeospatialGeometry",
+        "Place"
+      ]
+    },
+    {
+      "name": "typicalAgeRange",
+      "parent": [
+        "CreativeWork",
+        "Event"
+      ]
+    },
+    {
+      "name": "bookingAgent",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "codeRepository",
+      "parent": [
+        "SoftwareSourceCode"
+      ]
+    },
+    {
+      "name": "vehicleConfiguration",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "endTime",
+      "parent": [
+        "Action",
+        "FoodEstablishmentReservation",
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "steps",
+      "parent": [
+        "HowTo",
+        "HowToSection"
+      ]
+    },
+    {
+      "name": "billingPeriod",
+      "parent": [
+        "Invoice"
+      ]
+    },
+    {
+      "name": "originAddress",
+      "parent": [
+        "ParcelDelivery"
+      ]
+    },
+    {
+      "name": "isLiveBroadcast",
+      "parent": [
+        "BroadcastEvent"
+      ]
+    },
+    {
+      "name": "numChildren",
+      "parent": [
+        "LodgingReservation"
+      ]
+    },
+    {
+      "name": "hoursAvailable",
+      "parent": [
+        "LocationFeatureSpecification",
+        "ContactPoint",
+        "Service"
+      ]
+    },
+    {
+      "name": "iataCode",
+      "parent": [
+        "Airline",
+        "Airport"
+      ]
+    },
+    {
+      "name": "foodEstablishment",
+      "parent": [
+        "CookAction"
+      ]
+    },
+    {
+      "name": "parents",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "predecessorOf",
+      "parent": [
+        "ProductModel"
+      ]
+    },
+    {
+      "name": "departurePlatform",
+      "parent": [
+        "TrainTrip"
+      ]
+    },
+    {
+      "name": "actionAccessibilityRequirement",
+      "parent": [
+        "ConsumeAction"
+      ]
+    },
+    {
+      "name": "percentile25",
+      "parent": [
+        "QuantitativeValueDistribution"
+      ]
+    },
+    {
+      "name": "pickupTime",
+      "parent": [
+        "TaxiReservation",
+        "RentalCarReservation"
+      ]
+    },
+    {
+      "name": "organizer",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "parentItem",
+      "parent": [
+        "Comment"
+      ]
+    },
+    {
+      "name": "lastReviewed",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "broadcastDisplayName",
+      "parent": [
+        "BroadcastService"
+      ]
+    },
+    {
+      "name": "members",
+      "parent": [
+        "ProgramMembership",
+        "Organization"
+      ]
+    },
+    {
+      "name": "printColumn",
+      "parent": [
+        "NewsArticle"
+      ]
+    },
+    {
+      "name": "arrivalBusStop",
+      "parent": [
+        "BusTrip"
+      ]
+    },
+    {
+      "name": "programmingLanguage",
+      "parent": [
+        "SoftwareSourceCode"
+      ]
+    },
+    {
+      "name": "position",
+      "parent": [
+        "CreativeWork",
+        "ListItem"
+      ]
+    },
+    {
+      "name": "partOfInvoice",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "bccRecipient",
+      "parent": [
+        "Message"
+      ]
+    },
+    {
+      "name": "fuelType",
+      "parent": [
+        "EngineSpecification",
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "availability",
+      "parent": [
+        "Offer",
+        "Demand"
+      ]
+    },
+    {
+      "name": "icaoCode",
+      "parent": [
+        "Airport"
+      ]
+    },
+    {
+      "name": "vehicleIdentificationNumber",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "durationOfWarranty",
+      "parent": [
+        "WarrantyPromise"
+      ]
+    },
+    {
+      "name": "gameTip",
+      "parent": [
+        "VideoGame"
+      ]
+    },
+    {
+      "name": "partySize",
+      "parent": [
+        "TaxiReservation",
+        "FoodEstablishmentReservation"
+      ]
+    },
+    {
+      "name": "median",
+      "parent": [
+        "QuantitativeValueDistribution"
+      ]
+    },
+    {
+      "name": "priceSpecification",
+      "parent": [
+        "Demand",
+        "Offer",
+        "TradeAction"
+      ]
+    },
+    {
+      "name": "providerMobility",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "releasedEvent",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "speakable",
+      "parent": [
+        "WebPage",
+        "Article"
+      ]
+    },
+    {
+      "name": "educationalUse",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "itemReviewed",
+      "parent": [
+        "AggregateRating",
+        "Review"
+      ]
+    },
+    {
+      "name": "availableOnDevice",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "attendees",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "stepValue",
+      "parent": [
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "currency",
+      "parent": [
+        "ExchangeRateSpecification",
+        "LoanOrCredit",
+        "DatedMoneySpecification",
+        "MonetaryAmountDistribution",
+        "MonetaryAmount"
+      ]
+    },
+    {
+      "name": "inventoryLevel",
+      "parent": [
+        "Demand",
+        "Offer",
+        "SomeProducts"
+      ]
+    },
+    {
+      "name": "salaryCurrency",
+      "parent": [
+        "EmployeeRole",
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "landlord",
+      "parent": [
+        "RentAction"
+      ]
+    },
+    {
+      "name": "confirmationNumber",
+      "parent": [
+        "Invoice",
+        "Order"
+      ]
+    },
+    {
+      "name": "alumniOf",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "commentText",
+      "parent": [
+        "UserComments"
+      ]
+    },
+    {
+      "name": "contentLocation",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "fuelConsumption",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "childMinAge",
+      "parent": [
+        "ParentAudience"
+      ]
+    },
+    {
+      "name": "schemaVersion",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "dateSent",
+      "parent": [
+        "Message"
+      ]
+    },
+    {
+      "name": "accessibilityFeature",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "aggregateRating",
+      "parent": [
+        "Brand",
+        "Organization",
+        "Event",
+        "CreativeWork",
+        "Offer",
+        "Product",
+        "Place",
+        "Service"
+      ]
+    },
+    {
+      "name": "recipeIngredient",
+      "parent": [
+        "Recipe"
+      ]
+    },
+    {
+      "name": "trainName",
+      "parent": [
+        "TrainTrip"
+      ]
+    },
+    {
+      "name": "locationCreated",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "recipeInstructions",
+      "parent": [
+        "Recipe"
+      ]
+    },
+    {
+      "name": "inAlbum",
+      "parent": [
+        "MusicRecording"
+      ]
+    },
+    {
+      "name": "itemShipped",
+      "parent": [
+        "ParcelDelivery"
+      ]
+    },
+    {
+      "name": "free",
+      "parent": [
+        "PublicationEvent"
+      ]
+    },
+    {
+      "name": "contentSize",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "isConsumableFor",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "accessModeSufficient",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "itemListOrder",
+      "parent": [
+        "ItemList"
+      ]
+    },
+    {
+      "name": "artform",
+      "parent": [
+        "VisualArtwork"
+      ]
+    },
+    {
+      "name": "temporalCoverage",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "codeSampleType",
+      "parent": [
+        "SoftwareSourceCode"
+      ]
+    },
+    {
+      "name": "eligibleTransactionVolume",
+      "parent": [
+        "Demand",
+        "Offer",
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "equal",
+      "parent": [
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "subEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "blogPost",
+      "parent": [
+        "Blog"
+      ]
+    },
+    {
+      "name": "accountablePerson",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "homeLocation",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "nutrition",
+      "parent": [
+        "Recipe",
+        "MenuItem"
+      ]
+    },
+    {
+      "name": "embedUrl",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "area",
+      "parent": [
+        "BroadcastService"
+      ]
+    },
+    {
+      "name": "partOfSeason",
+      "parent": [
+        "Clip",
+        "Episode"
+      ]
+    },
+    {
+      "name": "interestRate",
+      "parent": [
+        "FinancialProduct"
+      ]
+    },
+    {
+      "name": "partOfOrder",
+      "parent": [
+        "ParcelDelivery"
+      ]
+    },
+    {
+      "name": "totalPrice",
+      "parent": [
+        "Reservation",
+        "Ticket"
+      ]
+    },
+    {
+      "name": "inPlaylist",
+      "parent": [
+        "MusicRecording"
+      ]
+    },
+    {
+      "name": "subEvents",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "identifier",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "availableAtOrFrom",
+      "parent": [
+        "Demand",
+        "Offer"
+      ]
+    },
+    {
+      "name": "maxPrice",
+      "parent": [
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "countryOfOrigin",
+      "parent": [
+        "Movie",
+        "TVEpisode",
+        "TVSeries",
+        "TVSeason"
+      ]
+    },
+    {
+      "name": "tickerSymbol",
+      "parent": [
+        "Corporation"
+      ]
+    },
+    {
+      "name": "scheduledPaymentDate",
+      "parent": [
+        "Invoice"
+      ]
+    },
+    {
+      "name": "lodgingUnitDescription",
+      "parent": [
+        "LodgingReservation"
+      ]
+    },
+    {
+      "name": "duns",
+      "parent": [
+        "Person",
+        "Organization"
+      ]
+    },
+    {
+      "name": "jobBenefits",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "option",
+      "parent": [
+        "ChooseAction"
+      ]
+    },
+    {
+      "name": "gameLocation",
+      "parent": [
+        "VideoGameSeries",
+        "Game"
+      ]
+    },
+    {
+      "name": "hasMenu",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "taxID",
+      "parent": [
+        "Person",
+        "Organization"
+      ]
+    },
+    {
+      "name": "courseMode",
+      "parent": [
+        "CourseInstance"
+      ]
+    },
+    {
+      "name": "spatialCoverage",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "followee",
+      "parent": [
+        "FollowAction"
+      ]
+    },
+    {
+      "name": "recipe",
+      "parent": [
+        "CookAction"
+      ]
+    },
+    {
+      "name": "musicBy",
+      "parent": [
+        "Episode",
+        "VideoObject",
+        "MovieSeries",
+        "VideoGameSeries",
+        "TVSeries",
+        "Movie",
+        "VideoGame",
+        "RadioSeries",
+        "Clip"
+      ]
+    },
+    {
+      "name": "lyricist",
+      "parent": [
+        "MusicComposition"
+      ]
+    },
+    {
+      "name": "amount",
+      "parent": [
+        "DatedMoneySpecification",
+        "MoneyTransfer",
+        "MonetaryGrant",
+        "LoanOrCredit",
+        "InvestmentOrDeposit"
+      ]
+    },
+    {
+      "name": "feesAndCommissionsSpecification",
+      "parent": [
+        "FinancialService",
+        "FinancialProduct"
+      ]
+    },
+    {
+      "name": "reservationFor",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "priceCurrency",
+      "parent": [
+        "Ticket",
+        "TradeAction",
+        "Reservation",
+        "Offer",
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "serviceLocation",
+      "parent": [
+        "ServiceChannel"
+      ]
+    },
+    {
+      "name": "executableLibraryName",
+      "parent": [
+        "APIReference"
+      ]
+    },
+    {
+      "name": "trainNumber",
+      "parent": [
+        "TrainTrip"
+      ]
+    },
+    {
+      "name": "sugarContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "catalogNumber",
+      "parent": [
+        "MusicRelease"
+      ]
+    },
+    {
+      "name": "answerCount",
+      "parent": [
+        "Question"
+      ]
+    },
+    {
+      "name": "seatingType",
+      "parent": [
+        "Seat"
+      ]
+    },
+    {
+      "name": "offers",
+      "parent": [
+        "EducationalOccupationalProgram",
+        "Product",
+        "CreativeWork",
+        "AggregateOffer",
+        "Trip",
+        "Event",
+        "MenuItem",
+        "Service"
+      ]
+    },
+    {
+      "name": "editor",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "discussionUrl",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "educationalCredentialAwarded",
+      "parent": [
+        "Course",
+        "EducationalOccupationalProgram"
+      ]
+    },
+    {
+      "name": "coverageEndTime",
+      "parent": [
+        "LiveBlogPosting"
+      ]
+    },
+    {
+      "name": "numberOfPreviousOwners",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "artworkSurface",
+      "parent": [
+        "VisualArtwork"
+      ]
+    },
+    {
+      "name": "issueNumber",
+      "parent": [
+        "PublicationIssue"
+      ]
+    },
+    {
+      "name": "customer",
+      "parent": [
+        "Order",
+        "Invoice"
+      ]
+    },
+    {
+      "name": "petsAllowed",
+      "parent": [
+        "FloorPlan",
+        "LodgingBusiness",
+        "ApartmentComplex",
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "artEdition",
+      "parent": [
+        "VisualArtwork"
+      ]
+    },
+    {
+      "name": "award",
+      "parent": [
+        "Organization",
+        "Product",
+        "Person",
+        "Service",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "application",
+      "parent": [
+        "EntryPoint"
+      ]
+    },
+    {
+      "name": "streetAddress",
+      "parent": [
+        "PostalAddress"
+      ]
+    },
+    {
+      "name": "containsSeason",
+      "parent": [
+        "VideoGameSeries",
+        "TVSeries",
+        "RadioSeries"
+      ]
+    },
+    {
+      "name": "category",
+      "parent": [
+        "ActionAccessSpecification",
+        "URL",
+        "PhysicalActivity",
+        "Recommendation",
+        "SpecialAnnouncement",
+        "Invoice",
+        "Offer",
+        "Product",
+        "Service"
+      ]
+    },
+    {
+      "name": "contactOption",
+      "parent": [
+        "ContactPoint"
+      ]
+    },
+    {
+      "name": "claimReviewed",
+      "parent": [
+        "ClaimReview"
+      ]
+    },
+    {
+      "name": "pageEnd",
+      "parent": [
+        "PublicationVolume",
+        "Article",
+        "Chapter",
+        "PublicationIssue"
+      ]
+    },
+    {
+      "name": "birthDate",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "step",
+      "parent": [
+        "HowTo"
+      ]
+    },
+    {
+      "name": "photos",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "makesOffer",
+      "parent": [
+        "Organization",
+        "Person"
+      ]
+    },
+    {
+      "name": "map",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "orderQuantity",
+      "parent": [
+        "OrderItem"
+      ]
+    },
+    {
+      "name": "width",
+      "parent": [
+        "VisualArtwork",
+        "MediaObject",
+        "Product"
+      ]
+    },
+    {
+      "name": "priceValidUntil",
+      "parent": [
+        "Offer"
+      ]
+    },
+    {
+      "name": "givenName",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "ticketNumber",
+      "parent": [
+        "Ticket"
+      ]
+    },
+    {
+      "name": "proficiencyLevel",
+      "parent": [
+        "TechArticle"
+      ]
+    },
+    {
+      "name": "valueMaxLength",
+      "parent": [
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "cholesterolContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "creditedTo",
+      "parent": [
+        "MusicRelease"
+      ]
+    },
+    {
+      "name": "datePosted",
+      "parent": [
+        "RealEstateListing",
+        "JobPosting",
+        "SpecialAnnouncement",
+        "CDCPMDRecord"
+      ]
+    },
+    {
+      "name": "directors",
+      "parent": [
+        "RadioSeries",
+        "Clip",
+        "Episode",
+        "TVSeries",
+        "Movie",
+        "MovieSeries",
+        "VideoGame",
+        "VideoGameSeries",
+        "VideoObject"
+      ]
+    },
+    {
+      "name": "runtimePlatform",
+      "parent": [
+        "SoftwareSourceCode"
+      ]
+    },
+    {
+      "name": "contactPoints",
+      "parent": [
+        "Organization",
+        "Person"
+      ]
+    },
+    {
+      "name": "skills",
+      "parent": [
+        "Occupation",
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "copyrightHolder",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "paymentStatus",
+      "parent": [
+        "Invoice"
+      ]
+    },
+    {
+      "name": "characterName",
+      "parent": [
+        "PerformanceRole"
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "dependencies",
+      "parent": [
+        "TechArticle"
+      ]
+    },
+    {
+      "name": "branchCode",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "merchant",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "broker",
+      "parent": [
+        "Invoice",
+        "Order",
+        "Service",
+        "Reservation"
+      ]
+    },
+    {
+      "name": "expectedArrivalFrom",
+      "parent": [
+        "ParcelDelivery"
+      ]
+    },
+    {
+      "name": "dataFeedElement",
+      "parent": [
+        "DataFeed"
+      ]
+    },
+    {
+      "name": "addOn",
+      "parent": [
+        "Offer"
+      ]
+    },
+    {
+      "name": "sportsTeam",
+      "parent": [
+        "ExerciseAction"
+      ]
+    },
+    {
+      "name": "inBroadcastLineup",
+      "parent": [
+        "BroadcastChannel"
+      ]
+    },
+    {
+      "name": "featureList",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "accessibilityHazard",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "albumReleaseType",
+      "parent": [
+        "MusicAlbum"
+      ]
+    },
+    {
+      "name": "surface",
+      "parent": [
+        "VisualArtwork"
+      ]
+    },
+    {
+      "name": "copyrightYear",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "sportsEvent",
+      "parent": [
+        "ExerciseAction"
+      ]
+    },
+    {
+      "name": "actionPlatform",
+      "parent": [
+        "EntryPoint"
+      ]
+    },
+    {
+      "name": "distance",
+      "parent": [
+        "ExerciseAction",
+        "TravelAction"
+      ]
+    },
+    {
+      "name": "longitude",
+      "parent": [
+        "GeoCoordinates",
+        "Place"
+      ]
+    },
+    {
+      "name": "issn",
+      "parent": [
+        "Dataset",
+        "WebSite",
+        "CreativeWorkSeries",
+        "Blog"
+      ]
+    },
+    {
+      "name": "hasMap",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "awards",
+      "parent": [
+        "Person",
+        "Product",
+        "CreativeWork",
+        "Organization"
+      ]
+    },
+    {
+      "name": "hasBroadcastChannel",
+      "parent": [
+        "BroadcastService"
+      ]
+    },
+    {
+      "name": "incentives",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "printEdition",
+      "parent": [
+        "NewsArticle"
+      ]
+    },
+    {
+      "name": "opponent",
+      "parent": [
+        "ExerciseAction"
+      ]
+    },
+    {
+      "name": "releaseOf",
+      "parent": [
+        "MusicRelease"
+      ]
+    },
+    {
+      "name": "participant",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "menu",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "servicePostalAddress",
+      "parent": [
+        "ServiceChannel"
+      ]
+    },
+    {
+      "name": "videoQuality",
+      "parent": [
+        "VideoObject"
+      ]
+    },
+    {
+      "name": "warranty",
+      "parent": [
+        "Offer",
+        "Demand"
+      ]
+    },
+    {
+      "name": "foundingDate",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "liveBlogUpdate",
+      "parent": [
+        "LiveBlogPosting"
+      ]
+    },
+    {
+      "name": "eligibleQuantity",
+      "parent": [
+        "Demand",
+        "Offer",
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "priceComponent",
+      "parent": [
+        "CompoundPriceSpecification"
+      ]
+    },
+    {
+      "name": "ccRecipient",
+      "parent": [
+        "Message"
+      ]
+    },
+    {
+      "name": "significantLink",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "applicationSubCategory",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "recordedAt",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "recordedAs",
+      "parent": [
+        "MusicComposition"
+      ]
+    },
+    {
+      "name": "spatial",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "additionalProperty",
+      "parent": [
+        "Place",
+        "QuantitativeValue",
+        "Product",
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "serviceOutput",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "commentCount",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "relatedLink",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "replacee",
+      "parent": [
+        "ReplaceAction"
+      ]
+    },
+    {
+      "name": "replacer",
+      "parent": [
+        "ReplaceAction"
+      ]
+    },
+    {
+      "name": "reportNumber",
+      "parent": [
+        "Report"
+      ]
+    },
+    {
+      "name": "winner",
+      "parent": [
+        "LoseAction"
+      ]
+    },
+    {
+      "name": "articleSection",
+      "parent": [
+        "Article"
+      ]
+    },
+    {
+      "name": "leiCode",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "fileFormat",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "instrument",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "validUntil",
+      "parent": [
+        "Permit"
+      ]
+    },
+    {
+      "name": "typeOfBed",
+      "parent": [
+        "BedDetails"
+      ]
+    },
+    {
+      "name": "articleBody",
+      "parent": [
+        "Article"
+      ]
+    },
+    {
+      "name": "familyName",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "fuelEfficiency",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "track",
+      "parent": [
+        "MusicPlaylist",
+        "MusicGroup"
+      ]
+    },
+    {
+      "name": "seeks",
+      "parent": [
+        "Organization",
+        "Person"
+      ]
+    },
+    {
+      "name": "member",
+      "parent": [
+        "Organization",
+        "ProgramMembership"
+      ]
+    },
+    {
+      "name": "touristType",
+      "parent": [
+        "TouristDestination",
+        "TouristTrip",
+        "TouristAttraction"
+      ]
+    },
+    {
+      "name": "founders",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "suggestedMaxAge",
+      "parent": [
+        "PeopleAudience"
+      ]
+    },
+    {
+      "name": "yearlyRevenue",
+      "parent": [
+        "BusinessAudience"
+      ]
+    },
+    {
+      "name": "episodeNumber",
+      "parent": [
+        "Episode"
+      ]
+    },
+    {
+      "name": "temporal",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "sibling",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "boardingGroup",
+      "parent": [
+        "FlightReservation"
+      ]
+    },
+    {
+      "name": "orderedItem",
+      "parent": [
+        "Order",
+        "OrderItem"
+      ]
+    },
+    {
+      "name": "lesser",
+      "parent": [
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "playMode",
+      "parent": [
+        "VideoGameSeries",
+        "VideoGame"
+      ]
+    },
+    {
+      "name": "alumni",
+      "parent": [
+        "Organization",
+        "EducationalOrganization"
+      ]
+    },
+    {
+      "name": "dissolutionDate",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "requiredMinAge",
+      "parent": [
+        "PeopleAudience"
+      ]
+    },
+    {
+      "name": "arrivalStation",
+      "parent": [
+        "TrainTrip"
+      ]
+    },
+    {
+      "name": "reviewCount",
+      "parent": [
+        "AggregateRating"
+      ]
+    },
+    {
+      "name": "contentUrl",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "circle",
+      "parent": [
+        "GeoShape"
+      ]
+    },
+    {
+      "name": "availableLanguage",
+      "parent": [
+        "ServiceChannel",
+        "LodgingBusiness",
+        "TouristAttraction",
+        "ContactPoint"
+      ]
+    },
+    {
+      "name": "performerIn",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "question",
+      "parent": [
+        "AskAction"
+      ]
+    },
+    {
+      "name": "numberOfItems",
+      "parent": [
+        "ItemList"
+      ]
+    },
+    {
+      "name": "responsibilities",
+      "parent": [
+        "Occupation",
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "isGift",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "referencesOrder",
+      "parent": [
+        "Invoice"
+      ]
+    },
+    {
+      "name": "validFrom",
+      "parent": [
+        "Permit",
+        "LocationFeatureSpecification",
+        "PriceSpecification",
+        "MonetaryAmount",
+        "Offer",
+        "Demand",
+        "OpeningHoursSpecification"
+      ]
+    },
+    {
+      "name": "box",
+      "parent": [
+        "GeoShape"
+      ]
+    },
+    {
+      "name": "sportsActivityLocation",
+      "parent": [
+        "ExerciseAction"
+      ]
+    },
+    {
+      "name": "subReservation",
+      "parent": [
+        "ReservationPackage"
+      ]
+    },
+    {
+      "name": "device",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "baseSalary",
+      "parent": [
+        "JobPosting",
+        "EmployeeRole"
+      ]
+    },
+    {
+      "name": "foodEvent",
+      "parent": [
+        "CookAction"
+      ]
+    },
+    {
+      "name": "accessibilityAPI",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "billingAddress",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "boardingPolicy",
+      "parent": [
+        "Airline",
+        "Flight"
+      ]
+    },
+    {
+      "name": "honorificPrefix",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "specialOpeningHoursSpecification",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "byArtist",
+      "parent": [
+        "MusicRecording",
+        "MusicAlbum"
+      ]
+    },
+    {
+      "name": "isAccessoryOrSparePartFor",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "additionalName",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "passengerSequenceNumber",
+      "parent": [
+        "FlightReservation"
+      ]
+    },
+    {
+      "name": "addressCountry",
+      "parent": [
+        "GeoShape",
+        "PostalAddress",
+        "GeoCoordinates"
+      ]
+    },
+    {
+      "name": "toLocation",
+      "parent": [
+        "InsertAction",
+        "ExerciseAction",
+        "TransferAction",
+        "MoveAction"
+      ]
+    },
+    {
+      "name": "interactionStatistic",
+      "parent": [
+        "CreativeWork",
+        "Organization",
+        "Person"
+      ]
+    },
+    {
+      "name": "seatSection",
+      "parent": [
+        "Seat"
+      ]
+    },
+    {
+      "name": "validThrough",
+      "parent": [
+        "PriceSpecification",
+        "JobPosting",
+        "OpeningHoursSpecification",
+        "Offer",
+        "MonetaryAmount",
+        "LocationFeatureSpecification",
+        "Demand"
+      ]
+    },
+    {
+      "name": "aircraft",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "recipient",
+      "parent": [
+        "CommunicateAction",
+        "PayAction",
+        "DonateAction",
+        "SendAction",
+        "TipAction",
+        "ReturnAction",
+        "GiveAction",
+        "AuthorizeAction",
+        "Message"
+      ]
+    },
+    {
+      "name": "attendee",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "successorOf",
+      "parent": [
+        "ProductModel"
+      ]
+    },
+    {
+      "name": "collection",
+      "parent": [
+        "UpdateAction"
+      ]
+    },
+    {
+      "name": "subjectOf",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "siblings",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "amenityFeature",
+      "parent": [
+        "Place",
+        "FloorPlan",
+        "LodgingBusiness",
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "contentRating",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "starRating",
+      "parent": [
+        "LodgingBusiness",
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "applicationCategory",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "geoRadius",
+      "parent": [
+        "GeoCircle"
+      ]
+    },
+    {
+      "name": "dropoffLocation",
+      "parent": [
+        "RentalCarReservation"
+      ]
+    },
+    {
+      "name": "logo",
+      "parent": [
+        "Organization",
+        "Brand",
+        "Service",
+        "Place",
+        "Product"
+      ]
+    },
+    {
+      "name": "athlete",
+      "parent": [
+        "SportsTeam"
+      ]
+    },
+    {
+      "name": "requiredCollateral",
+      "parent": [
+        "LoanOrCredit"
+      ]
+    },
+    {
+      "name": "isVariantOf",
+      "parent": [
+        "ProductModel"
+      ]
+    },
+    {
+      "name": "readonlyValue",
+      "parent": [
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "numberOfAxles",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "sharedContent",
+      "parent": [
+        "SocialMediaPosting"
+      ]
+    },
+    {
+      "name": "price",
+      "parent": [
+        "TradeAction",
+        "PriceSpecification",
+        "Offer"
+      ]
+    },
+    {
+      "name": "hiringOrganization",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "numberOfSeasons",
+      "parent": [
+        "TVSeries",
+        "RadioSeries",
+        "VideoGameSeries"
+      ]
+    },
+    {
+      "name": "valueMinLength",
+      "parent": [
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "dropoffTime",
+      "parent": [
+        "RentalCarReservation"
+      ]
+    },
+    {
+      "name": "workPerformed",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "hasCourseInstance",
+      "parent": [
+        "Course"
+      ]
+    },
+    {
+      "name": "eventStatus",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "gtin14",
+      "parent": [
+        "Demand",
+        "Product",
+        "Offer"
+      ]
+    },
+    {
+      "name": "gtin13",
+      "parent": [
+        "Demand",
+        "Offer",
+        "Product"
+      ]
+    },
+    {
+      "name": "gtin12",
+      "parent": [
+        "Demand",
+        "Product",
+        "Offer"
+      ]
+    },
+    {
+      "name": "employees",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "learningResourceType",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "suitableForDiet",
+      "parent": [
+        "Recipe",
+        "MenuItem"
+      ]
+    },
+    {
+      "name": "warrantyScope",
+      "parent": [
+        "WarrantyPromise"
+      ]
+    },
+    {
+      "name": "valueReference",
+      "parent": [
+        "PropertyValue",
+        "QualitativeValue",
+        "QuantitativeValue"
+      ]
+    },
+    {
+      "name": "accessMode",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "startDate",
+      "parent": [
+        "DatedMoneySpecification",
+        "Event",
+        "CreativeWorkSeries",
+        "Schedule",
+        "Role",
+        "EducationalOccupationalProgram",
+        "CreativeWorkSeason"
+      ]
+    },
+    {
+      "name": "telephone",
+      "parent": [
+        "Place",
+        "Person",
+        "Organization",
+        "ContactPoint"
+      ]
+    },
+    {
+      "name": "realEstateAgent",
+      "parent": [
+        "RentAction"
+      ]
+    },
+    {
+      "name": "mainContentOfPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "serviceUrl",
+      "parent": [
+        "ServiceChannel"
+      ]
+    },
+    {
+      "name": "director",
+      "parent": [
+        "VideoObject",
+        "Clip",
+        "MovieSeries",
+        "VideoGameSeries",
+        "Event",
+        "VideoGame",
+        "CreativeWorkSeason",
+        "Movie",
+        "Episode",
+        "TVSeries",
+        "RadioSeries"
+      ]
+    },
+    {
+      "name": "transcript",
+      "parent": [
+        "VideoObject",
+        "AudioObject"
+      ]
+    },
+    {
+      "name": "softwareVersion",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "providesBroadcastService",
+      "parent": [
+        "BroadcastChannel"
+      ]
+    },
+    {
+      "name": "superEvent",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "material",
+      "parent": [
+        "Product",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "issuedBy",
+      "parent": [
+        "Permit",
+        "Ticket"
+      ]
+    },
+    {
+      "name": "email",
+      "parent": [
+        "ContactPoint",
+        "Organization",
+        "Person"
+      ]
+    },
+    {
+      "name": "albumRelease",
+      "parent": [
+        "MusicAlbum"
+      ]
+    },
+    {
+      "name": "isFamilyFriendly",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "weight",
+      "parent": [
+        "Person",
+        "Product"
+      ]
+    },
+    {
+      "name": "broadcastOfEvent",
+      "parent": [
+        "BroadcastEvent"
+      ]
+    },
+    {
+      "name": "numberOfBeds",
+      "parent": [
+        "BedDetails"
+      ]
+    },
+    {
+      "name": "reviewedBy",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "printSection",
+      "parent": [
+        "NewsArticle"
+      ]
+    },
+    {
+      "name": "httpMethod",
+      "parent": [
+        "EntryPoint"
+      ]
+    },
+    {
+      "name": "potentialAction",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "vehicleInteriorType",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "relevantOccupation",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "performTime",
+      "parent": [
+        "HowTo",
+        "HowToDirection"
+      ]
+    },
+    {
+      "name": "exampleOfWork",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "opens",
+      "parent": [
+        "OpeningHoursSpecification"
+      ]
+    },
+    {
+      "name": "version",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "paymentMethod",
+      "parent": [
+        "Invoice",
+        "Order"
+      ]
+    },
+    {
+      "name": "dateModified",
+      "parent": [
+        "CreativeWork",
+        "DataFeedItem"
+      ]
+    },
+    {
+      "name": "associatedArticle",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "mainEntity",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "productionCompany",
+      "parent": [
+        "MediaObject",
+        "Movie",
+        "CreativeWorkSeason",
+        "TVSeries",
+        "RadioSeries",
+        "Episode",
+        "MovieSeries",
+        "VideoGameSeries"
+      ]
+    },
+    {
+      "name": "deliveryMethod",
+      "parent": [
+        "OrderAction",
+        "ReceiveAction",
+        "SendAction",
+        "TrackAction"
+      ]
+    },
+    {
+      "name": "endorsee",
+      "parent": [
+        "EndorseAction"
+      ]
+    },
+    {
+      "name": "alignmentType",
+      "parent": [
+        "AlignmentObject"
+      ]
+    },
+    {
+      "name": "assemblyVersion",
+      "parent": [
+        "APIReference"
+      ]
+    },
+    {
+      "name": "branchOf",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "programName",
+      "parent": [
+        "ProgramMembership"
+      ]
+    },
+    {
+      "name": "geo",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "department",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "targetUrl",
+      "parent": [
+        "AlignmentObject"
+      ]
+    },
+    {
+      "name": "carbohydrateContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "isSimilarTo",
+      "parent": [
+        "Product",
+        "Service"
+      ]
+    },
+    {
+      "name": "closes",
+      "parent": [
+        "OpeningHoursSpecification"
+      ]
+    },
+    {
+      "name": "storageRequirements",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "estimatedCost",
+      "parent": [
+        "HowTo",
+        "HowToSupply"
+      ]
+    },
+    {
+      "name": "contactPoint",
+      "parent": [
+        "HealthInsurancePlan",
+        "Organization",
+        "Person"
+      ]
+    },
+    {
+      "name": "genre",
+      "parent": [
+        "BroadcastChannel",
+        "MusicGroup",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "volumeNumber",
+      "parent": [
+        "PublicationVolume"
+      ]
+    },
+    {
+      "name": "requiredGender",
+      "parent": [
+        "PeopleAudience"
+      ]
+    },
+    {
+      "name": "maxValue",
+      "parent": [
+        "MonetaryAmount",
+        "PropertyValueSpecification",
+        "PropertyValue",
+        "QuantitativeValue"
+      ]
+    },
+    {
+      "name": "parentOrganization",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "duration",
+      "parent": [
+        "MusicRecording",
+        "Event",
+        "Audiobook",
+        "QuantitativeValueDistribution",
+        "MediaObject",
+        "MusicRelease",
+        "Schedule",
+        "Movie"
+      ]
+    },
+    {
+      "name": "acceptedAnswer",
+      "parent": [
+        "Question"
+      ]
+    },
+    {
+      "name": "fromLocation",
+      "parent": [
+        "MoveAction",
+        "TransferAction",
+        "ExerciseAction"
+      ]
+    },
+    {
+      "name": "keywords",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "hostingOrganization",
+      "parent": [
+        "ProgramMembership"
+      ]
+    },
+    {
+      "name": "arrivalTime",
+      "parent": [
+        "Trip"
+      ]
+    },
+    {
+      "name": "hasDigitalDocumentPermission",
+      "parent": [
+        "DigitalDocument"
+      ]
+    },
+    {
+      "name": "programmingModel",
+      "parent": [
+        "APIReference"
+      ]
+    },
+    {
+      "name": "colleague",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "sender",
+      "parent": [
+        "ReceiveAction",
+        "Message"
+      ]
+    },
+    {
+      "name": "applicationSuite",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "educationalRole",
+      "parent": [
+        "EducationalAudience"
+      ]
+    },
+    {
+      "name": "encodesCreativeWork",
+      "parent": [
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "seller",
+      "parent": [
+        "BuyAction",
+        "Order",
+        "Demand",
+        "Offer",
+        "Flight"
+      ]
+    },
+    {
+      "name": "interactionCount",
+      "parent": []
+    },
+    {
+      "name": "author",
+      "parent": [
+        "Rating",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "targetName",
+      "parent": [
+        "AlignmentObject"
+      ]
+    },
+    {
+      "name": "dataset",
+      "parent": [
+        "DataCatalog"
+      ]
+    },
+    {
+      "name": "recipeCuisine",
+      "parent": [
+        "Recipe"
+      ]
+    },
+    {
+      "name": "legalName",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "specialCommitments",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "ticketToken",
+      "parent": [
+        "Ticket"
+      ]
+    },
+    {
+      "name": "cookTime",
+      "parent": [
+        "Recipe"
+      ]
+    },
+    {
+      "name": "securityScreening",
+      "parent": [
+        "FlightReservation"
+      ]
+    },
+    {
+      "name": "addressRegion",
+      "parent": [
+        "PostalAddress"
+      ]
+    },
+    {
+      "name": "object",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "assembly",
+      "parent": [
+        "APIReference"
+      ]
+    },
+    {
+      "name": "geoCovers",
+      "parent": [
+        "Place",
+        "GeospatialGeometry"
+      ]
+    },
+    {
+      "name": "encodings",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "memoryRequirements",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "numberOfAirbags",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "paymentMethodId",
+      "parent": [
+        "Invoice",
+        "Order"
+      ]
+    },
+    {
+      "name": "isBasedOnUrl",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "ownedThrough",
+      "parent": [
+        "OwnershipInfo"
+      ]
+    },
+    {
+      "name": "webCheckinTime",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "alternativeHeadline",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "mealService",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "printPage",
+      "parent": [
+        "NewsArticle"
+      ]
+    },
+    {
+      "name": "upvoteCount",
+      "parent": [
+        "Question",
+        "Comment"
+      ]
+    },
+    {
+      "name": "broadcastFrequencyValue",
+      "parent": [
+        "BroadcastFrequencySpecification"
+      ]
+    },
+    {
+      "name": "messageAttachment",
+      "parent": [
+        "Message"
+      ]
+    },
+    {
+      "name": "timeRequired",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "geoEquals",
+      "parent": [
+        "GeospatialGeometry",
+        "Place"
+      ]
+    },
+    {
+      "name": "translator",
+      "parent": [
+        "Event",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "discount",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "valueName",
+      "parent": [
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "pageStart",
+      "parent": [
+        "Chapter",
+        "Article",
+        "PublicationVolume",
+        "PublicationIssue"
+      ]
+    },
+    {
+      "name": "servicePhone",
+      "parent": [
+        "ServiceChannel"
+      ]
+    },
+    {
+      "name": "additionalNumberOfGuests",
+      "parent": [
+        "RsvpAction"
+      ]
+    },
+    {
+      "name": "deliveryLeadTime",
+      "parent": [
+        "Offer",
+        "Demand"
+      ]
+    },
+    {
+      "name": "issuedThrough",
+      "parent": [
+        "Permit"
+      ]
+    },
+    {
+      "name": "minimumPaymentDue",
+      "parent": [
+        "Invoice"
+      ]
+    },
+    {
+      "name": "suggestedGender",
+      "parent": [
+        "PeopleAudience"
+      ]
+    },
+    {
+      "name": "loser",
+      "parent": [
+        "WinAction"
+      ]
+    },
+    {
+      "name": "seatRow",
+      "parent": [
+        "Seat"
+      ]
+    },
+    {
+      "name": "proteinContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "wordCount",
+      "parent": [
+        "Article"
+      ]
+    },
+    {
+      "name": "paymentAccepted",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "screenshot",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "availabilityEnds",
+      "parent": [
+        "ActionAccessSpecification",
+        "Demand",
+        "Offer"
+      ]
+    },
+    {
+      "name": "requiredMaxAge",
+      "parent": [
+        "PeopleAudience"
+      ]
+    },
+    {
+      "name": "sodiumContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "model",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "namedPosition",
+      "parent": [
+        "Role"
+      ]
+    },
+    {
+      "name": "orderDelivery",
+      "parent": [
+        "OrderItem",
+        "Order"
+      ]
+    },
+    {
+      "name": "containedInPlace",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "color",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "serviceOperator",
+      "parent": [
+        "GovernmentService"
+      ]
+    },
+    {
+      "name": "experienceRequirements",
+      "parent": [
+        "JobPosting",
+        "Occupation"
+      ]
+    },
+    {
+      "name": "countriesSupported",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "includesObject",
+      "parent": [
+        "Demand",
+        "Offer"
+      ]
+    },
+    {
+      "name": "departureGate",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "isRelatedTo",
+      "parent": [
+        "Service",
+        "Product"
+      ]
+    },
+    {
+      "name": "worstRating",
+      "parent": [
+        "Rating"
+      ]
+    },
+    {
+      "name": "thumbnailUrl",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "availableChannel",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "hasMenuItem",
+      "parent": [
+        "MenuSection",
+        "Menu"
+      ]
+    },
+    {
+      "name": "broadcaster",
+      "parent": [
+        "BroadcastService"
+      ]
+    },
+    {
+      "name": "firstPerformance",
+      "parent": [
+        "MusicComposition"
+      ]
+    },
+    {
+      "name": "seatNumber",
+      "parent": [
+        "Seat"
+      ]
+    },
+    {
+      "name": "hasPart",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "employee",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "warrantyPromise",
+      "parent": [
+        "BuyAction",
+        "SellAction"
+      ]
+    },
+    {
+      "name": "contactType",
+      "parent": [
+        "ContactPoint"
+      ]
+    },
+    {
+      "name": "productID",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "passengerPriorityStatus",
+      "parent": [
+        "FlightReservation"
+      ]
+    },
+    {
+      "name": "transFatContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "comment",
+      "parent": [
+        "CreativeWork",
+        "RsvpAction"
+      ]
+    },
+    {
+      "name": "targetCollection",
+      "parent": [
+        "UpdateAction"
+      ]
+    },
+    {
+      "name": "nonEqual",
+      "parent": [
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "numberOfEmployees",
+      "parent": [
+        "BusinessAudience",
+        "Organization"
+      ]
+    },
+    {
+      "name": "naics",
+      "parent": [
+        "Person",
+        "Organization"
+      ]
+    },
+    {
+      "name": "hasPOS",
+      "parent": [
+        "Organization",
+        "Person"
+      ]
+    },
+    {
+      "name": "dateReceived",
+      "parent": [
+        "Message"
+      ]
+    },
+    {
+      "name": "previousItem",
+      "parent": [
+        "ListItem"
+      ]
+    },
+    {
+      "name": "totalTime",
+      "parent": [
+        "HowToDirection",
+        "HowTo"
+      ]
+    },
+    {
+      "name": "parent",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "softwareHelp",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "entertainmentBusiness",
+      "parent": [
+        "PerformAction"
+      ]
+    },
+    {
+      "name": "quest",
+      "parent": [
+        "VideoGameSeries",
+        "Game"
+      ]
+    },
+    {
+      "name": "representativeOfPage",
+      "parent": [
+        "ImageObject"
+      ]
+    },
+    {
+      "name": "inLanguage",
+      "parent": [
+        "LinkRole",
+        "CommunicateAction",
+        "BroadcastService",
+        "CreativeWork",
+        "Event",
+        "PronounceableText",
+        "WriteAction"
+      ]
+    },
+    {
+      "name": "previousStartDate",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "expectedArrivalUntil",
+      "parent": [
+        "ParcelDelivery"
+      ]
+    },
+    {
+      "name": "softwareAddOn",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "checkoutTime",
+      "parent": [
+        "LodgingBusiness",
+        "LodgingReservation"
+      ]
+    },
+    {
+      "name": "lodgingUnitType",
+      "parent": [
+        "LodgingReservation"
+      ]
+    },
+    {
+      "name": "modifiedTime",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "encodingFormat",
+      "parent": [
+        "CreativeWork",
+        "MediaObject"
+      ]
+    },
+    {
+      "name": "thumbnail",
+      "parent": [
+        "ImageObject",
+        "VideoObject"
+      ]
+    },
+    {
+      "name": "review",
+      "parent": [
+        "Event",
+        "Place",
+        "CreativeWork",
+        "Offer",
+        "Product",
+        "Organization",
+        "Service",
+        "Brand"
+      ]
+    },
+    {
+      "name": "musicArrangement",
+      "parent": [
+        "MusicComposition"
+      ]
+    },
+    {
+      "name": "acceptedOffer",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "geographicArea",
+      "parent": [
+        "Audience"
+      ]
+    },
+    {
+      "name": "ratingCount",
+      "parent": [
+        "AggregateRating"
+      ]
+    },
+    {
+      "name": "foundingLocation",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "mainEntityOfPage",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "publicAccess",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "offerCount",
+      "parent": [
+        "AggregateOffer"
+      ]
+    },
+    {
+      "name": "owns",
+      "parent": [
+        "Person",
+        "Organization"
+      ]
+    },
+    {
+      "name": "depth",
+      "parent": [
+        "Product",
+        "VisualArtwork"
+      ]
+    },
+    {
+      "name": "totalPaymentDue",
+      "parent": [
+        "Invoice"
+      ]
+    },
+    {
+      "name": "illustrator",
+      "parent": [
+        "Book"
+      ]
+    },
+    {
+      "name": "primaryImageOfPage",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "license",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "accessibilityControl",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "targetPlatform",
+      "parent": [
+        "APIReference"
+      ]
+    },
+    {
+      "name": "musicReleaseFormat",
+      "parent": [
+        "MusicRelease"
+      ]
+    },
+    {
+      "name": "busNumber",
+      "parent": [
+        "BusTrip"
+      ]
+    },
+    {
+      "name": "description",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "vehicleTransmission",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "dateVehicleFirstRegistered",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "event",
+      "parent": [
+        "InviteAction",
+        "Organization",
+        "PlayAction",
+        "LeaveAction",
+        "InformAction",
+        "Place",
+        "JoinAction"
+      ]
+    },
+    {
+      "name": "reviewBody",
+      "parent": [
+        "Review"
+      ]
+    },
+    {
+      "name": "purchaseDate",
+      "parent": [
+        "Product",
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "departureTerminal",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "estimatedFlightDuration",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "percentile90",
+      "parent": [
+        "QuantitativeValueDistribution"
+      ]
+    },
+    {
+      "name": "cookingMethod",
+      "parent": [
+        "Recipe"
+      ]
+    },
+    {
+      "name": "businessFunction",
+      "parent": [
+        "TypeAndQuantityNode",
+        "Offer",
+        "Demand"
+      ]
+    },
+    {
+      "name": "bookingTime",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "headline",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "permitAudience",
+      "parent": [
+        "Permit"
+      ]
+    },
+    {
+      "name": "geoTouches",
+      "parent": [
+        "GeospatialGeometry",
+        "Place"
+      ]
+    },
+    {
+      "name": "postalCode",
+      "parent": [
+        "GeoCoordinates",
+        "GeoShape",
+        "PostalAddress"
+      ]
+    },
+    {
+      "name": "resultComment",
+      "parent": [
+        "CommentAction",
+        "ReplyAction"
+      ]
+    },
+    {
+      "name": "eligibleCustomerType",
+      "parent": [
+        "Demand",
+        "Offer"
+      ]
+    },
+    {
+      "name": "containsPlace",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "disambiguatingDescription",
+      "parent": [
+        "Thing"
+      ]
+    },
+    {
+      "name": "productSupported",
+      "parent": [
+        "ContactPoint"
+      ]
+    },
+    {
+      "name": "userInteractionCount",
+      "parent": [
+        "InteractionCounter"
+      ]
+    },
+    {
+      "name": "language",
+      "parent": [
+        "WriteAction",
+        "CommunicateAction"
+      ]
+    },
+    {
+      "name": "itemCondition",
+      "parent": [
+        "Offer",
+        "Demand",
+        "Product"
+      ]
+    },
+    {
+      "name": "elevation",
+      "parent": [
+        "GeoShape",
+        "GeoCoordinates"
+      ]
+    },
+    {
+      "name": "isBasedOn",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "availableThrough",
+      "parent": [
+        "DeliveryEvent"
+      ]
+    },
+    {
+      "name": "employmentType",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "affiliation",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "commentTime",
+      "parent": [
+        "UserComments"
+      ]
+    },
+    {
+      "name": "multipleValues",
+      "parent": [
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "founder",
+      "parent": [
+        "Organization"
+      ]
+    },
+    {
+      "name": "creator",
+      "parent": [
+        "UserComments",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "fiberContent",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "itemOffered",
+      "parent": [
+        "Offer",
+        "Demand"
+      ]
+    },
+    {
+      "name": "suggestedMinAge",
+      "parent": [
+        "PeopleAudience"
+      ]
+    },
+    {
+      "name": "ticketedSeat",
+      "parent": [
+        "Ticket"
+      ]
+    },
+    {
+      "name": "calories",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "pickupLocation",
+      "parent": [
+        "TaxiReservation",
+        "RentalCarReservation"
+      ]
+    },
+    {
+      "name": "lowPrice",
+      "parent": [
+        "AggregateOffer"
+      ]
+    },
+    {
+      "name": "serviceType",
+      "parent": [
+        "Service"
+      ]
+    },
+    {
+      "name": "releaseNotes",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "scheduledTime",
+      "parent": [
+        "PlanAction"
+      ]
+    },
+    {
+      "name": "carrierRequirements",
+      "parent": [
+        "MobileApplication"
+      ]
+    },
+    {
+      "name": "flightDistance",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "geoIntersects",
+      "parent": [
+        "GeospatialGeometry",
+        "Place"
+      ]
+    },
+    {
+      "name": "courseCode",
+      "parent": [
+        "Course"
+      ]
+    },
+    {
+      "name": "polygon",
+      "parent": [
+        "GeoShape"
+      ]
+    },
+    {
+      "name": "cssSelector",
+      "parent": [
+        "SpeakableSpecification",
+        "WebPageElement"
+      ]
+    },
+    {
+      "name": "numberOfPages",
+      "parent": [
+        "Book"
+      ]
+    },
+    {
+      "name": "offeredBy",
+      "parent": [
+        "Offer"
+      ]
+    },
+    {
+      "name": "supply",
+      "parent": [
+        "HowTo",
+        "HowToDirection"
+      ]
+    },
+    {
+      "name": "error",
+      "parent": [
+        "Action"
+      ]
+    },
+    {
+      "name": "validIn",
+      "parent": [
+        "EducationalOccupationalCredential",
+        "Permit"
+      ]
+    },
+    {
+      "name": "afterMedia",
+      "parent": [
+        "HowToDirection"
+      ]
+    },
+    {
+      "name": "workPresented",
+      "parent": [
+        "ScreeningEvent"
+      ]
+    },
+    {
+      "name": "supportingData",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "discountCurrency",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "availableFrom",
+      "parent": [
+        "DeliveryEvent"
+      ]
+    },
+    {
+      "name": "highPrice",
+      "parent": [
+        "AggregateOffer"
+      ]
+    },
+    {
+      "name": "geoDisjoint",
+      "parent": [
+        "Place",
+        "GeospatialGeometry"
+      ]
+    },
+    {
+      "name": "publishingPrinciples",
+      "parent": [
+        "Organization",
+        "CreativeWork",
+        "Person"
+      ]
+    },
+    {
+      "name": "unitCode",
+      "parent": [
+        "QuantitativeValue",
+        "PropertyValue",
+        "TypeAndQuantityNode",
+        "UnitPriceSpecification"
+      ]
+    },
+    {
+      "name": "producer",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "productionDate",
+      "parent": [
+        "Product",
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "interactionType",
+      "parent": [
+        "InteractionCounter"
+      ]
+    },
+    {
+      "name": "estimatedSalary",
+      "parent": [
+        "JobPosting",
+        "Occupation"
+      ]
+    },
+    {
+      "name": "arrivalTerminal",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "mentions",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "geoMidpoint",
+      "parent": [
+        "GeoCircle"
+      ]
+    },
+    {
+      "name": "numberOfPlayers",
+      "parent": [
+        "Game",
+        "VideoGameSeries"
+      ]
+    },
+    {
+      "name": "dateDeleted",
+      "parent": [
+        "DataFeedItem"
+      ]
+    },
+    {
+      "name": "isicV4",
+      "parent": [
+        "Place",
+        "Person",
+        "Organization"
+      ]
+    },
+    {
+      "name": "departureAirport",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "numAdults",
+      "parent": [
+        "LodgingReservation"
+      ]
+    },
+    {
+      "name": "vendor",
+      "parent": [
+        "BuyAction"
+      ]
+    },
+    {
+      "name": "valueAddedTaxIncluded",
+      "parent": [
+        "PriceSpecification"
+      ]
+    },
+    {
+      "name": "acquiredFrom",
+      "parent": [
+        "OwnershipInfo"
+      ]
+    },
+    {
+      "name": "steeringPosition",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "openingHours",
+      "parent": [
+        "CivicStructure",
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "flightNumber",
+      "parent": [
+        "Flight"
+      ]
+    },
+    {
+      "name": "expectsAcceptanceOf",
+      "parent": [
+        "ConsumeAction",
+        "ActionAccessSpecification",
+        "MediaSubscription"
+      ]
+    },
+    {
+      "name": "slogan",
+      "parent": [
+        "Product",
+        "Organization",
+        "Service",
+        "Brand",
+        "Place"
+      ]
+    },
+    {
+      "name": "game",
+      "parent": [
+        "GameServer"
+      ]
+    },
+    {
+      "name": "tracks",
+      "parent": [
+        "MusicGroup",
+        "MusicPlaylist"
+      ]
+    },
+    {
+      "name": "acceptsReservations",
+      "parent": [
+        "FoodEstablishment"
+      ]
+    },
+    {
+      "name": "lesserOrEqual",
+      "parent": [
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "requiredQuantity",
+      "parent": [
+        "HowToItem"
+      ]
+    },
+    {
+      "name": "location",
+      "parent": [
+        "Event",
+        "Action",
+        "Organization"
+      ]
+    },
+    {
+      "name": "toRecipient",
+      "parent": [
+        "Message"
+      ]
+    },
+    {
+      "name": "reviewAspect",
+      "parent": [
+        "Review",
+        "Rating",
+        "Guide"
+      ]
+    },
+    {
+      "name": "currenciesAccepted",
+      "parent": [
+        "LocalBusiness"
+      ]
+    },
+    {
+      "name": "encodingType",
+      "parent": [
+        "EntryPoint"
+      ]
+    },
+    {
+      "name": "eligibleDuration",
+      "parent": [
+        "Demand",
+        "Offer"
+      ]
+    },
+    {
+      "name": "exerciseCourse",
+      "parent": [
+        "ExerciseAction"
+      ]
+    },
+    {
+      "name": "ownedFrom",
+      "parent": [
+        "OwnershipInfo"
+      ]
+    },
+    {
+      "name": "caption",
+      "parent": [
+        "ImageObject",
+        "VideoObject",
+        "AudioObject"
+      ]
+    },
+    {
+      "name": "rsvpResponse",
+      "parent": [
+        "RsvpAction"
+      ]
+    },
+    {
+      "name": "acceptedPaymentMethod",
+      "parent": [
+        "Demand",
+        "Offer"
+      ]
+    },
+    {
+      "name": "significantLinks",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "servingSize",
+      "parent": [
+        "NutritionInformation"
+      ]
+    },
+    {
+      "name": "recordedIn",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "brand",
+      "parent": [
+        "Organization",
+        "Product",
+        "Person",
+        "Service"
+      ]
+    },
+    {
+      "name": "dateCreated",
+      "parent": [
+        "DataFeedItem",
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "musicGroupMember",
+      "parent": [
+        "MusicGroup"
+      ]
+    },
+    {
+      "name": "honorificSuffix",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "reservationId",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "numberOfRooms",
+      "parent": [
+        "FloorPlan",
+        "LodgingBusiness",
+        "House",
+        "Apartment",
+        "SingleFamilyResidence",
+        "Suite",
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "netWorth",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "vatID",
+      "parent": [
+        "Person",
+        "Organization"
+      ]
+    },
+    {
+      "name": "departureTime",
+      "parent": [
+        "Trip"
+      ]
+    },
+    {
+      "name": "playersOnline",
+      "parent": [
+        "GameServer"
+      ]
+    },
+    {
+      "name": "referenceQuantity",
+      "parent": [
+        "UnitPriceSpecification"
+      ]
+    },
+    {
+      "name": "nationality",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "educationalFramework",
+      "parent": [
+        "AlignmentObject"
+      ]
+    },
+    {
+      "name": "actors",
+      "parent": [
+        "TVSeries",
+        "Clip",
+        "VideoObject",
+        "MovieSeries",
+        "VideoGameSeries",
+        "Movie",
+        "VideoGame",
+        "Episode",
+        "RadioSeries"
+      ]
+    },
+    {
+      "name": "title",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "unitText",
+      "parent": [
+        "QuantitativeValue",
+        "PropertyValue",
+        "UnitPriceSpecification",
+        "TypeAndQuantityNode"
+      ]
+    },
+    {
+      "name": "releaseDate",
+      "parent": [
+        "Product"
+      ]
+    },
+    {
+      "name": "accountId",
+      "parent": [
+        "Invoice"
+      ]
+    },
+    {
+      "name": "catalog",
+      "parent": [
+        "Dataset"
+      ]
+    },
+    {
+      "name": "iswcCode",
+      "parent": [
+        "MusicComposition"
+      ]
+    },
+    {
+      "name": "greaterOrEqual",
+      "parent": [
+        "QualitativeValue"
+      ]
+    },
+    {
+      "name": "episode",
+      "parent": [
+        "RadioSeries",
+        "VideoGameSeries",
+        "CreativeWorkSeason",
+        "TVSeries"
+      ]
+    },
+    {
+      "name": "tool",
+      "parent": [
+        "HowTo",
+        "HowToDirection"
+      ]
+    },
+    {
+      "name": "permissionType",
+      "parent": [
+        "DigitalDocumentPermission"
+      ]
+    },
+    {
+      "name": "requirements",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "addressLocality",
+      "parent": [
+        "PostalAddress"
+      ]
+    },
+    {
+      "name": "composer",
+      "parent": [
+        "MusicComposition",
+        "Event"
+      ]
+    },
+    {
+      "name": "includedDataCatalog",
+      "parent": [
+        "Dataset"
+      ]
+    },
+    {
+      "name": "countriesNotSupported",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "serviceSmsNumber",
+      "parent": [
+        "ServiceChannel"
+      ]
+    },
+    {
+      "name": "operatingSystem",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "suggestedAnswer",
+      "parent": [
+        "Question"
+      ]
+    },
+    {
+      "name": "dateIssued",
+      "parent": [
+        "Ticket"
+      ]
+    },
+    {
+      "name": "reservedTicket",
+      "parent": [
+        "Reservation"
+      ]
+    },
+    {
+      "name": "serverStatus",
+      "parent": [
+        "GameServer"
+      ]
+    },
+    {
+      "name": "lender",
+      "parent": [
+        "BorrowAction"
+      ]
+    },
+    {
+      "name": "mapType",
+      "parent": [
+        "Map"
+      ]
+    },
+    {
+      "name": "faxNumber",
+      "parent": [
+        "Person",
+        "ContactPoint",
+        "Organization",
+        "Place"
+      ]
+    },
+    {
+      "name": "datePublished",
+      "parent": [
+        "CreativeWork"
+      ]
+    },
+    {
+      "name": "priceType",
+      "parent": [
+        "UnitPriceSpecification"
+      ]
+    },
+    {
+      "name": "distribution",
+      "parent": [
+        "Dataset"
+      ]
+    },
+    {
+      "name": "isAccessibleForFree",
+      "parent": [
+        "Event",
+        "Place",
+        "CreativeWork",
+        "PublicationEvent"
+      ]
+    },
+    {
+      "name": "geoCoveredBy",
+      "parent": [
+        "Place",
+        "GeospatialGeometry"
+      ]
+    },
+    {
+      "name": "seasonNumber",
+      "parent": [
+        "CreativeWorkSeason"
+      ]
+    },
+    {
+      "name": "xpath",
+      "parent": [
+        "SpeakableSpecification",
+        "WebPageElement"
+      ]
+    },
+    {
+      "name": "orderItemNumber",
+      "parent": [
+        "OrderItem"
+      ]
+    },
+    {
+      "name": "clipNumber",
+      "parent": [
+        "Clip"
+      ]
+    },
+    {
+      "name": "processingTime",
+      "parent": [
+        "ServiceChannel"
+      ]
+    },
+    {
+      "name": "percentile75",
+      "parent": [
+        "QuantitativeValueDistribution"
+      ]
+    },
+    {
+      "name": "coach",
+      "parent": [
+        "SportsTeam"
+      ]
+    },
+    {
+      "name": "yield",
+      "parent": [
+        "HowTo"
+      ]
+    },
+    {
+      "name": "paymentDueDate",
+      "parent": [
+        "Invoice",
+        "Order"
+      ]
+    },
+    {
+      "name": "knownVehicleDamages",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "fileSize",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "containedIn",
+      "parent": [
+        "Place"
+      ]
+    },
+    {
+      "name": "dateline",
+      "parent": [
+        "NewsArticle"
+      ]
+    },
+    {
+      "name": "sampleType",
+      "parent": [
+        "SoftwareSourceCode"
+      ]
+    },
+    {
+      "name": "hasMenuSection",
+      "parent": [
+        "Menu",
+        "MenuSection"
+      ]
+    },
+    {
+      "name": "relatedTo",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "competitor",
+      "parent": [
+        "SportsEvent"
+      ]
+    },
+    {
+      "name": "runtime",
+      "parent": [
+        "SoftwareSourceCode"
+      ]
+    },
+    {
+      "name": "line",
+      "parent": [
+        "GeoShape"
+      ]
+    },
+    {
+      "name": "follows",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "industry",
+      "parent": [
+        "JobPosting"
+      ]
+    },
+    {
+      "name": "borrower",
+      "parent": [
+        "LendAction"
+      ]
+    },
+    {
+      "name": "ingredients",
+      "parent": [
+        "Recipe"
+      ]
+    },
+    {
+      "name": "dayOfWeek",
+      "parent": [
+        "EducationalOccupationalProgram",
+        "OpeningHoursSpecification"
+      ]
+    },
+    {
+      "name": "driveWheelConfiguration",
+      "parent": [
+        "Vehicle"
+      ]
+    },
+    {
+      "name": "eligibleRegion",
+      "parent": [
+        "Demand",
+        "Offer",
+        "DeliveryChargeSpecification",
+        "ActionAccessSpecification"
+      ]
+    },
+    {
+      "name": "downvoteCount",
+      "parent": [
+        "Question",
+        "Comment"
+      ]
+    },
+    {
+      "name": "valueRequired",
+      "parent": [
+        "PropertyValueSpecification"
+      ]
+    },
+    {
+      "name": "candidate",
+      "parent": [
+        "VoteAction"
+      ]
+    },
+    {
+      "name": "accessCode",
+      "parent": [
+        "DeliveryEvent"
+      ]
+    },
+    {
+      "name": "homeTeam",
+      "parent": [
+        "SportsEvent"
+      ]
+    },
+    {
+      "name": "performer",
+      "parent": [
+        "Event"
+      ]
+    },
+    {
+      "name": "permittedUsage",
+      "parent": [
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "item",
+      "parent": [
+        "DataFeedItem",
+        "ListItem"
+      ]
+    },
+    {
+      "name": "roleName",
+      "parent": [
+        "Role"
+      ]
+    },
+    {
+      "name": "discountCode",
+      "parent": [
+        "Order"
+      ]
+    },
+    {
+      "name": "advanceBookingRequirement",
+      "parent": [
+        "Offer",
+        "Demand"
+      ]
+    },
+    {
+      "name": "knows",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "contentType",
+      "parent": [
+        "EntryPoint"
+      ]
+    },
+    {
+      "name": "specialty",
+      "parent": [
+        "WebPage"
+      ]
+    },
+    {
+      "name": "album",
+      "parent": [
+        "MusicGroup"
+      ]
+    },
+    {
+      "name": "replyToUrl",
+      "parent": [
+        "UserComments"
+      ]
+    },
+    {
+      "name": "worksFor",
+      "parent": [
+        "Person"
+      ]
+    },
+    {
+      "name": "musicalKey",
+      "parent": [
+        "MusicComposition"
+      ]
+    },
+    {
+      "name": "installUrl",
+      "parent": [
+        "SoftwareApplication"
+      ]
+    },
+    {
+      "name": "citation",
+      "parent": [
+        "CreativeWork"
+      ]
+    }
+  ]
+}
