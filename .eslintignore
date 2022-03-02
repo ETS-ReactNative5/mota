@@ -1,0 +1,16 @@
+# Ignore js files inside local chromium download on Travis.
+**/chrome-linux/**
+**/chrome-win32/**
+
+**/node_modules/**
+**/third_party/**
+**/generated/**
+**/source-maps/**
+
+/dist/**
+
+coverage/**
+
+!.eslintrc.js
+
+lighthouse-core/scripts/legacy-javascript/variants
