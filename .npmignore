@@ -1,0 +1,49 @@
+# use npm modules `pkgfiles` or `irish-pub` to validate which files are selected
+
+# folders
+.vscode/
+.github/
+assets/
+build/
+coverage/
+
+lighthouse-core/scripts/*
+lighthouse-core/test/
+lighthouse-core/third_party/src/
+lighthouse-viewer/
+lighthouse-extension/
+lighthouse-cli/results/
+lighthouse-logger/
+
+# keep the chrome launcher script
+!lighthouse-core/scripts/manual-chrome-launcher.js
+
+# keep smokehouse tests, etc
+!lighthouse-cli/test
+
+node_modules/
+results/
+lantern-data/
+latest-run/
+plots/
+
+# generated files
+**/pages/scripts/lighthouse-report.js
+*.report.html
+*.dom.html
+*.devtoolslog.json
+*.trace.json
+closure-error.log
+last-run-results.html
+latest.artifacts.log
+npm-debug.log
+yarn-error.log
+results.html
+
+# dev files
+.appveyor.yml
+.DS_Store
+.editorconfig
+.eslintignore
+.eslintrc.js
+.travis.yml
