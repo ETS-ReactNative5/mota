@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "module": "commonjs",
+    "target": "ES2017",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    // "listFiles": true,
+    "typeRoots": [
+      "@types",
+      "./typings"
+    ],
+
+    "diagnostics": true
+  },
+  "include": [
+    "lighthouse-cli/**/*.js",
+    "lighthouse-core/audits/audit.js",
+    "lighthouse-core/lib/dependency-graph/**/*.js",
+    "lighthouse-core/gather/connections/**/*.js",
+    "lighthouse-core/gather/gatherers/gatherer.js",
+    "lighthouse-core/scripts/*.js",
+    "lighthouse-core/audits/seo/robots-txt.js",
+    "./typings/*.d.ts"
+  ],
+  "exclude": [
+    "lighthouse-cli/test/**/*.js"
+  ]
+}
