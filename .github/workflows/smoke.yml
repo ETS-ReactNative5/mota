@@ -1,0 +1,34 @@
+name: smoke
+
+on:
+  push:
+  pull_request: # run on all PRs, not just PRs to a particular branch
+
+jobs:
+  # `smoke` runs as a matrix across 4 jobs:
+  #  * The smoke tests are split into two batches, to parallelize.
+  #  * Then, those are run with both Chrome stable and ToT Chromium, in parallel
+
+  # Only run smoke tests for windows against stable chrome.
+  smoke-windows:
+    runs-on: windows-latest
+    name: Windows
+
+    steps:
+    - name: git clone
+      uses: actions/checkout@v2
+
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+
+    - run: yarn install --frozen-lockfile --network-timeout 1000000
+    - run: yarn build-report
+
+    - name: Run smoke tests
+      # Windows bots are slow, so only run enough tests to verify matching behavior.
+      run: yarn smoke --debug -j=1 --retries=0 oopif offline lantern metrics
+
+    # Fail if any changes were written to source files.
+    - run: git diff --exit-code
