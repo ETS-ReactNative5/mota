@@ -1,0 +1,40 @@
+name: smoke
+
+on:
+  push:
+  pull_request: # run on all PRs, not just PRs to a particular branch
+
+jobs:
+
+  # Only run smoke tests for windows against stable chrome.
+  smoke-windows:
+    runs-on: windows-latest
+    name: Windows
+
+    steps:
+    - name: git clone
+      uses: actions/checkout@v2
+
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+
+    - run: yarn install --frozen-lockfile --network-timeout 1000000
+
+    - name: Run smoke tests
+      # Windows bots are slow, so only run enough tests to verify matching behavior.
+      run: yarn smoke --debug -j=1 --retries=2 dbw
+      env:
+        LANTERN_DEBUG: 1
+
+
+    - name: artifact stuff results
+      uses: actions/upload-artifact@v2
+      with:
+        name: artifactsandstuff
+        path: funtime
+
+    # Fail if any changes were written to source files.
+    - run: git diff --exit-code
+
