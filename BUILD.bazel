@@ -1,0 +1,121 @@
+# TODO: https://g3doc.corp.google.com/devtools/blaze/bazel/g3doc/bazel-rbe.md?cl=head
+# https://cloud.google.com/remote-build-execution/docs/quickstart
+# google.com:lighthouse-bazel
+
+# bazel run --config=remote --remote_instance_name=projects/google.com:lighthouse-bazel/instances/default_instance :lighthouse -- --help
+# hit a snag: https://github.com/bazelbuild/rules_nodejs/issues/1190
+
+load("@build_bazel_rules_nodejs//:defs.bzl", "nodejs_binary", "nodejs_test")
+
+# Use self managed node_modules, because listing each dependency is a chore.
+# Note, this makes RCE slower.
+# see https://github.com/bazelbuild/rules_nodejs/blob/7e3e6be38e1cf3c6c99d8dc8829377a2beacbb53/docs/install.md#dependencies
+filegroup(
+  name = "node_modules",
+  srcs = glob(
+    include = ["node_modules/**/*"],
+    exclude = [
+      # Files under test & docs may contain file names that
+      # are not legal Bazel labels (e.g.,
+      # node_modules/ecstatic/test/public/中文/檔案.html)
+      "node_modules/test/**",
+      "node_modules/docs/**",
+      # Files with spaces are not allowed in Bazel runfiles
+      # See https://github.com/bazelbuild/bazel/issues/4327
+      "node_modules/**/* */**",
+      "node_modules/**/* *",
+    ],
+  ),
+)
+
+filegroup(
+  name = "cli",
+  srcs = [
+    "//:lighthouse-cli",
+    "//:lighthouse-core",
+    "//:stack-packs",
+    "//:third-party",
+    # cli-flags.js reads this.
+    "//:package.json"
+  ],
+  # testonly = True,
+  data = [
+    # '@org_chromium_chromium//file',
+    # '@io_bazel_rules_webtesting//browsers:chromium-local',
+  ]
+)
+
+nodejs_test(
+  name = "lighthouse",
+  entry_point = "//:lighthouse-cli",
+  templated_args = [
+    "--chrome-flags=--headless --no-sandbox",
+    "--GA=$TEST_UNDECLARED_OUTPUTS_DIR",
+  ],
+  # testonly = True,
+  data = [
+    ":cli",
+    # "@npm//yargs",
+    # "@npm//lighthouse-logger",
+    # "@npm//rimraf",
+    # "@npm//mkdirp",
+    # "@npm//lodash.isequal",
+    # "@npm//intl-messageformat",
+    # ... gonna be a lot ... see comment above node_modules filegroup
+  ],
+  node_modules = ":node_modules"
+)
+
+nodejs_test(
+  name = "smoke",
+  entry_point = "//:lighthouse-cli/test/smokehouse/run-smoke.js",
+  data = [
+    ":cli",
+    "//:lighthouse-cli/test/fixtures",
+    "//:lighthouse-cli/test/smokehouse",
+  ],
+  node_modules = ":node_modules"
+)
+
+nodejs_test(
+  name = "smoke1",
+  entry_point = "//:lighthouse-cli/test/smokehouse/run-smoke.js",
+  templated_args = ["seo"],
+  data = [
+    ":cli",
+    "//:lighthouse-cli/test/fixtures",
+    "//:lighthouse-cli/test/smokehouse",
+  ],
+  node_modules = ":node_modules"
+)
+nodejs_test(
+  name = "smoke2",
+  entry_point = "//:lighthouse-cli/test/smokehouse/run-smoke.js",
+  templated_args = ["byte"],
+  data = [
+    ":cli",
+    "//:lighthouse-cli/test/fixtures",
+    "//:lighthouse-cli/test/smokehouse",
+  ],
+  node_modules = ":node_modules"
+)
+
+nodejs_test(
+  name = "smoke_sharded",
+  entry_point = "//:bazel/runner.js",
+  testonly = 1,
+  data = [
+    ":cli",
+    "//:bazel/runner.js",
+    "//:lighthouse-cli/test/fixtures",
+    "//:lighthouse-cli/test/smokehouse",
+  ],
+  node_modules = ":node_modules",
+  shard_count = 14
+)
+
+# sh_test(
+#   name = "smoke_test",
+#   srcs = [":smoke"],
+#   args = ["$(location :smoke)"],
+# )
