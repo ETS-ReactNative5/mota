@@ -1,0 +1,23 @@
+# Ignore js files inside local chromium download on Travis.
+**/chrome-linux/**
+**/chrome-win32/**
+
+**/node_modules/**
+**/third_party/**
+
+**/dist/**
+lighthouse-extension/app/scripts
+
+
+**/closure/*/*
+coverage/**
+
+# Typescript compiled
+!lighthouse-cli/index.js
+lighthouse-cli/*.js
+lighthouse-cli/commands/*.js
+lighthouse-cli/types/*.js
+
+# Handlebar-templates
+lighthouse-core/report/templates/report-templates.js
+lighthouse-core/report/partials/templates/report-partials.js
