@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "typeRoots": [
+      "../node_modules/@types",
+      "../types",
+      "./types",
+    ],
+    "esModuleInterop": true,
+  },
+  "include": [
+    "app/src/**/*.js",
+    "../types/*.d.ts",
+    "./types/*.d.ts",
+  ],
+}
