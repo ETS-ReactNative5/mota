@@ -1,0 +1,20 @@
+{
+  "passes": [{
+    "recordTrace": true,
+    "pauseAfterLoadMs": 5250,
+    "networkQuietThresholdMs": 5000,
+    "pauseAfterNetworkQuietMs": 2500,
+    "useThrottling": true,
+    "gatherers": []
+  }],
+
+  "audits": [
+    "load-fast-enough-for-pwa",
+    "first-meaningful-paint",
+    "speed-index-metric",
+    "estimated-input-latency",
+    "time-to-interactive",
+    "first-interactive",
+    "consistently-interactive"
+  ]
+}
